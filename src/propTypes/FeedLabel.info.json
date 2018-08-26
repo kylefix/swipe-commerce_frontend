@@ -1,0 +1,78 @@
+{
+  "displayName": "FeedLabel",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An event can contain icon label."
+      ],
+      "tags": [],
+      "name": "icon"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An event can contain image label."
+      ],
+      "tags": [],
+      "name": "image"
+    }
+  ],
+  "constructorName": "FeedLabel",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Feed",
+  "subcomponentName": "Label",
+  "subcomponents": null,
+  "apiPath": "Feed.Label",
+  "componentClassName": "label",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "An event can contain an image or icon label."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Feed/FeedLabel.js",
+  "filename": "FeedLabel.js",
+  "filenameWithoutExt": "FeedLabel"
+}

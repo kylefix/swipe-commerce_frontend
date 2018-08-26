@@ -1,0 +1,154 @@
+{
+  "displayName": "RatingIcon",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Indicates activity of an icon."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "'i'",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "number",
+      "required": false,
+      "description": [
+        "An index of icon inside Rating."
+      ],
+      "tags": [],
+      "name": "index"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called on click."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onClick"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called on keyup."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onKeyUp"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called on mouseenter."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onMouseEnter"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Indicates selection of an icon."
+      ],
+      "tags": [],
+      "name": "selected"
+    }
+  ],
+  "constructorName": "RatingIcon",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Rating",
+  "subcomponentName": "Icon",
+  "subcomponents": null,
+  "apiPath": "Rating.Icon",
+  "componentClassName": "icon",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "An internal icon sub-component for Rating component"
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Rating/RatingIcon.js",
+  "filename": "RatingIcon.js",
+  "filenameWithoutExt": "RatingIcon"
+}

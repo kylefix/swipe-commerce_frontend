@@ -1,0 +1,209 @@
+{
+  "displayName": "Card",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A Card can center itself inside its container."
+      ],
+      "tags": [],
+      "name": "centered"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A Card can be formatted to display different colors."
+      ],
+      "tags": [],
+      "value": [
+        "red",
+        "orange",
+        "yellow",
+        "olive",
+        "green",
+        "teal",
+        "blue",
+        "violet",
+        "purple",
+        "pink",
+        "brown",
+        "grey",
+        "black"
+      ],
+      "name": "color"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for CardDescription."
+      ],
+      "tags": [],
+      "name": "description"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content of CardContent."
+      ],
+      "tags": [],
+      "name": "extra"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A Card can be formatted to take up the width of its container."
+      ],
+      "tags": [],
+      "name": "fluid"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for CardHeader."
+      ],
+      "tags": [],
+      "name": "header"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Render as an `a` tag instead of a `div` and adds the href attribute."
+      ],
+      "tags": [],
+      "name": "href"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A card can contain an Image component."
+      ],
+      "tags": [],
+      "name": "image"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A card can be formatted to link to other content."
+      ],
+      "tags": [],
+      "name": "link"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for CardMeta."
+      ],
+      "tags": [],
+      "name": "meta"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called on click. When passed, the component renders as an `a`",
+        "tag by default instead of a `div`."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onClick"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A Card can be formatted to raise above the page."
+      ],
+      "tags": [],
+      "name": "raised"
+    }
+  ],
+  "constructorName": "Card",
+  "type": "view",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "CardContent",
+    "CardDescription",
+    "CardGroup",
+    "CardHeader",
+    "CardMeta"
+  ],
+  "apiPath": "Card",
+  "componentClassName": "card",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A card displays site content in a manner similar to a playing card."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/views/Card/Card.js",
+  "filename": "Card.js",
+  "filenameWithoutExt": "Card"
+}

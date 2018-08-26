@@ -1,0 +1,60 @@
+{
+  "displayName": "ItemExtra",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "ItemExtra",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Item",
+  "subcomponentName": "Extra",
+  "subcomponents": null,
+  "apiPath": "Item.Extra",
+  "componentClassName": "extra",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "An item can contain extra content meant to be formatted separately from the main content."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Item/ItemExtra.js",
+  "filename": "ItemExtra.js",
+  "filenameWithoutExt": "ItemExtra"
+}

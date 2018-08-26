@@ -1,0 +1,67 @@
+{
+  "displayName": "FormSelect",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "FormField",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A FormField control prop."
+      ],
+      "defaultValue": "Select",
+      "tags": [],
+      "name": "control"
+    },
+    {
+      "type": "arrayOf",
+      "required": true,
+      "description": [
+        "Array of Dropdown.Item props e.g. `{ text: '', value: '' }`"
+      ],
+      "tags": [],
+      "value": {
+        "name": "shape",
+        "value": "Dropdown.Item.propTypes",
+        "computed": true
+      },
+      "name": "options"
+    }
+  ],
+  "constructorName": "FormSelect",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Form",
+  "subcomponentName": "Select",
+  "subcomponents": null,
+  "apiPath": "Form.Select",
+  "componentClassName": "select",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Form"
+      },
+      {
+        "title": "see",
+        "description": "Select"
+      }
+    ],
+    "description": [
+      "Sugar for <Form.Field control={Select} />."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Form/FormSelect.js",
+  "filename": "FormSelect.js",
+  "filenameWithoutExt": "FormSelect"
+}

@@ -1,0 +1,108 @@
+{
+  "displayName": "ItemGroup",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Items can be divided to better distinguish between grouped content."
+      ],
+      "tags": [],
+      "name": "divided"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand array of props for Item."
+      ],
+      "tags": [],
+      "name": "items"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "An item can be formatted so that the entire contents link to another page."
+      ],
+      "tags": [],
+      "name": "link"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A group of items can relax its padding to provide more negative space."
+      ],
+      "tags": [],
+      "value": [
+        "very"
+      ],
+      "name": "relaxed"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Prevent items from stacking on mobile."
+      ],
+      "tags": [],
+      "name": "unstackable"
+    }
+  ],
+  "constructorName": "ItemGroup",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Item",
+  "subcomponentName": "Group",
+  "subcomponents": null,
+  "apiPath": "Item.Group",
+  "componentClassName": "items",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A group of items."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Item/ItemGroup.js",
+  "filename": "ItemGroup.js",
+  "filenameWithoutExt": "ItemGroup"
+}

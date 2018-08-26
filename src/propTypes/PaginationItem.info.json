@@ -1,0 +1,115 @@
+{
+  "displayName": "PaginationItem",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A pagination item can be active."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A pagination item can be disabled."
+      ],
+      "tags": [],
+      "name": "disabled"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called on click."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onClick"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called on key down."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onKeyDown"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A pagination should have a type."
+      ],
+      "tags": [],
+      "value": [
+        "ellipsisItem",
+        "firstItem",
+        "prevItem",
+        "pageItem",
+        "nextItem",
+        "lastItem"
+      ],
+      "name": "type"
+    }
+  ],
+  "constructorName": "PaginationItem",
+  "type": "addon",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Pagination",
+  "subcomponentName": "Item",
+  "subcomponents": null,
+  "apiPath": "Pagination.Item",
+  "componentClassName": "item",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "An item of a pagination."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/addons/Pagination/PaginationItem.js",
+  "filename": "PaginationItem.js",
+  "filenameWithoutExt": "PaginationItem"
+}

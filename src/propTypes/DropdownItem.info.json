@@ -1,0 +1,180 @@
+{
+  "displayName": "DropdownItem",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Style as the currently chosen item."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Additional text with less emphasis."
+      ],
+      "tags": [],
+      "name": "description"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A dropdown item can be disabled."
+      ],
+      "tags": [],
+      "name": "disabled"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for Flag."
+      ],
+      "tags": [],
+      "name": "flag"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for Icon."
+      ],
+      "tags": [],
+      "name": "icon"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for Image."
+      ],
+      "tags": [],
+      "name": "image"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for Label."
+      ],
+      "tags": [],
+      "name": "label"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called on click."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onClick"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "The item currently selected by keyboard shortcut.",
+        "This is not the active item."
+      ],
+      "tags": [],
+      "name": "selected"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Display text."
+      ],
+      "tags": [],
+      "name": "text"
+    },
+    {
+      "type": "bool|number|string",
+      "required": false,
+      "description": [
+        "Stored value."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "value"
+    }
+  ],
+  "constructorName": "DropdownItem",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Dropdown",
+  "subcomponentName": "Item",
+  "subcomponents": null,
+  "apiPath": "Dropdown.Item",
+  "componentClassName": "item",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "An item sub-component for Dropdown component."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Dropdown/DropdownItem.js",
+  "filename": "DropdownItem.js",
+  "filenameWithoutExt": "DropdownItem"
+}

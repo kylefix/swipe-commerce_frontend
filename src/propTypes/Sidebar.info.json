@@ -1,0 +1,186 @@
+{
+  "displayName": "Sidebar",
+  "props": [
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Animation style."
+      ],
+      "tags": [],
+      "value": [
+        "overlay",
+        "push",
+        "scale down",
+        "uncover",
+        "slide out",
+        "slide along"
+      ],
+      "name": "animation"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Direction the sidebar should appear on."
+      ],
+      "defaultValue": "'left'",
+      "tags": [],
+      "value": [
+        "top",
+        "right",
+        "bottom",
+        "left"
+      ],
+      "name": "direction"
+    },
+    {
+      "type": "number|string",
+      "required": false,
+      "description": [
+        "Duration of sidebar animation."
+      ],
+      "defaultValue": "500",
+      "tags": [],
+      "value": [],
+      "name": "duration"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called after a sidebar has finished animating out."
+      ],
+      "tags": [],
+      "name": "onHidden"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called before a sidebar begins to animate out."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onHide"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called when a sidebar has finished animating in."
+      ],
+      "tags": [],
+      "name": "onShow"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called when a sidebar begins animating in."
+      ],
+      "tags": [],
+      "name": "onVisible"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Controls whether or not the sidebar is visible on the page."
+      ],
+      "tags": [],
+      "name": "visible"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Sidebar width."
+      ],
+      "tags": [],
+      "value": [
+        "very thin",
+        "thin",
+        "wide",
+        "very wide"
+      ],
+      "name": "width"
+    }
+  ],
+  "constructorName": "Sidebar",
+  "type": "module",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "SidebarPushable",
+    "SidebarPusher"
+  ],
+  "apiPath": "Sidebar",
+  "componentClassName": "sidebar",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A sidebar hides additional content beside a page."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/modules/Sidebar/Sidebar.js",
+  "filename": "Sidebar.js",
+  "filenameWithoutExt": "Sidebar"
+}

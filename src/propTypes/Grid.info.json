@@ -1,0 +1,239 @@
+{
+  "displayName": "Grid",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A grid can have rows divided into cells."
+      ],
+      "tags": [],
+      "value": [
+        "internally"
+      ],
+      "name": "celled"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A grid can have its columns centered."
+      ],
+      "tags": [],
+      "name": "centered"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Represents column count per row in Grid."
+      ],
+      "tags": [],
+      "value": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen",
+        "equal"
+      ],
+      "name": "columns"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A grid can be combined with a container to use the available layout and alignment."
+      ],
+      "tags": [],
+      "name": "container"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A grid can have dividers between its columns."
+      ],
+      "tags": [],
+      "value": [
+        "vertically"
+      ],
+      "name": "divided"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A grid can double its column width on tablet and mobile sizes."
+      ],
+      "tags": [],
+      "name": "doubling"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A grid's colors can be inverted."
+      ],
+      "tags": [],
+      "name": "inverted"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A grid can preserve its vertical and horizontal gutters on first and last columns."
+      ],
+      "tags": [],
+      "value": [
+        "horizontally",
+        "vertically"
+      ],
+      "name": "padded"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A grid can increase its gutters to allow for more negative space."
+      ],
+      "tags": [],
+      "value": [
+        "very"
+      ],
+      "name": "relaxed"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A grid can specify that its columns should reverse order at different device sizes."
+      ],
+      "tags": [],
+      "name": "reversed"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A grid can have its columns stack on-top of each other after reaching mobile breakpoints."
+      ],
+      "tags": [],
+      "name": "stackable"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A grid can stretch its contents to take up the entire grid height."
+      ],
+      "tags": [],
+      "name": "stretched"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A grid can specify its text alignment."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "center",
+        "right",
+        "justified"
+      ],
+      "name": "textAlign"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A grid can specify its vertical alignment to have all its columns vertically centered."
+      ],
+      "tags": [],
+      "value": [
+        "bottom",
+        "middle",
+        "top"
+      ],
+      "name": "verticalAlign"
+    }
+  ],
+  "constructorName": "Grid",
+  "type": "collection",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "GridColumn",
+    "GridRow"
+  ],
+  "apiPath": "Grid",
+  "componentClassName": "grid",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A grid is used to harmonize negative space in a layout."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/collections/Grid/Grid.js",
+  "filename": "Grid.js",
+  "filenameWithoutExt": "Grid"
+}

@@ -1,0 +1,222 @@
+{
+  "displayName": "TableCell",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A cell can be active or selected by a user."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "'td'",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A cell can be collapsing so that it only uses as much space as required."
+      ],
+      "tags": [],
+      "name": "collapsing"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A cell can be disabled."
+      ],
+      "tags": [],
+      "name": "disabled"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A cell may call attention to an error or a negative value."
+      ],
+      "tags": [],
+      "name": "error"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Add an Icon by name, props object, or pass an <Icon />"
+      ],
+      "tags": [],
+      "name": "icon"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A cell may let a user know whether a value is bad."
+      ],
+      "tags": [],
+      "name": "negative"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A cell may let a user know whether a value is good."
+      ],
+      "tags": [],
+      "name": "positive"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A cell can be selectable."
+      ],
+      "tags": [],
+      "name": "selectable"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A cell can specify that its contents should remain on a single line and not wrap."
+      ],
+      "tags": [],
+      "name": "singleLine"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A table cell can adjust its text alignment."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "center",
+        "right"
+      ],
+      "name": "textAlign"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A table cell can adjust its text alignment."
+      ],
+      "tags": [],
+      "value": [
+        "bottom",
+        "middle",
+        "top"
+      ],
+      "name": "verticalAlign"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A cell may warn a user."
+      ],
+      "tags": [],
+      "name": "warning"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A table can specify the width of individual columns independently."
+      ],
+      "tags": [],
+      "value": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen"
+      ],
+      "name": "width"
+    }
+  ],
+  "constructorName": "TableCell",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Table",
+  "subcomponentName": "Cell",
+  "subcomponents": null,
+  "apiPath": "Table.Cell",
+  "componentClassName": "cell",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A table row can have cells."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Table/TableCell.js",
+  "filename": "TableCell.js",
+  "filenameWithoutExt": "TableCell"
+}

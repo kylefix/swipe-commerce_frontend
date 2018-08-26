@@ -1,0 +1,243 @@
+{
+  "displayName": "List",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A list can animate to set the current item apart from the list."
+      ],
+      "tags": [],
+      "name": "animated"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A list can mark items with a bullet."
+      ],
+      "tags": [],
+      "name": "bulleted"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A list can divide its items into cells."
+      ],
+      "tags": [],
+      "name": "celled"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A list can show divisions between content."
+      ],
+      "tags": [],
+      "name": "divided"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "An list can be floated left or right."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "right"
+      ],
+      "name": "floated"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A list can be formatted to have items appear horizontally."
+      ],
+      "tags": [],
+      "name": "horizontal"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A list can be inverted to appear on a dark background."
+      ],
+      "tags": [],
+      "name": "inverted"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand array of props for ListItem."
+      ],
+      "tags": [],
+      "name": "items"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A list can be specially formatted for navigation links."
+      ],
+      "tags": [],
+      "name": "link"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "onClick handler for ListItem. Mutually exclusive with children."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All item props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onItemClick"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A list can be ordered numerically."
+      ],
+      "tags": [],
+      "name": "ordered"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A list can relax its padding to provide more negative space."
+      ],
+      "tags": [],
+      "value": [
+        "very"
+      ],
+      "name": "relaxed"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A selection list formats list items as possible choices."
+      ],
+      "tags": [],
+      "name": "selection"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A list can vary in size."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "medium",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "An element inside a list can be vertically aligned."
+      ],
+      "tags": [],
+      "value": [
+        "bottom",
+        "middle",
+        "top"
+      ],
+      "name": "verticalAlign"
+    }
+  ],
+  "constructorName": "List",
+  "type": "element",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "ListContent",
+    "ListDescription",
+    "ListHeader",
+    "ListIcon",
+    "ListItem",
+    "ListList"
+  ],
+  "apiPath": "List",
+  "componentClassName": "list",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A list groups related content."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/elements/List/List.js",
+  "filename": "List.js",
+  "filenameWithoutExt": "List"
+}

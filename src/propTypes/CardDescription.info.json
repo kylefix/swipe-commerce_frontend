@@ -1,0 +1,74 @@
+{
+  "displayName": "CardDescription",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A card content can adjust its text alignment."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "center",
+        "right"
+      ],
+      "name": "textAlign"
+    }
+  ],
+  "constructorName": "CardDescription",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Card",
+  "subcomponentName": "Description",
+  "subcomponents": null,
+  "apiPath": "Card.Description",
+  "componentClassName": "description",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A card can contain a description with one or more paragraphs."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Card/CardDescription.js",
+  "filename": "CardDescription.js",
+  "filenameWithoutExt": "CardDescription"
+}

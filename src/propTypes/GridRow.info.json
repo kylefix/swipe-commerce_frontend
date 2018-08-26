@@ -1,0 +1,193 @@
+{
+  "displayName": "GridRow",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A row can have its columns centered."
+      ],
+      "tags": [],
+      "name": "centered"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A grid row can be colored."
+      ],
+      "tags": [],
+      "value": [
+        "red",
+        "orange",
+        "yellow",
+        "olive",
+        "green",
+        "teal",
+        "blue",
+        "violet",
+        "purple",
+        "pink",
+        "brown",
+        "grey",
+        "black"
+      ],
+      "name": "color"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Represents column count per line in Row."
+      ],
+      "tags": [],
+      "value": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen",
+        "equal"
+      ],
+      "name": "columns"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A row can have dividers between its columns."
+      ],
+      "tags": [],
+      "name": "divided"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A row can appear only for a specific device, or screen sizes."
+      ],
+      "tags": [],
+      "name": "only"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A row can specify that its columns should reverse order at different device sizes."
+      ],
+      "tags": [],
+      "name": "reversed"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A row can stretch its contents to take up the entire column height."
+      ],
+      "tags": [],
+      "name": "stretched"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A row can specify its text alignment."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "center",
+        "right",
+        "justified"
+      ],
+      "name": "textAlign"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A row can specify its vertical alignment to have all its columns vertically centered."
+      ],
+      "tags": [],
+      "value": [
+        "bottom",
+        "middle",
+        "top"
+      ],
+      "name": "verticalAlign"
+    }
+  ],
+  "constructorName": "GridRow",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Grid",
+  "subcomponentName": "Row",
+  "subcomponents": null,
+  "apiPath": "Grid.Row",
+  "componentClassName": "row",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A row sub-component for Grid."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Grid/GridRow.js",
+  "filename": "GridRow.js",
+  "filenameWithoutExt": "GridRow"
+}

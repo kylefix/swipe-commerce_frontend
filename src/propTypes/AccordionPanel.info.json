@@ -1,0 +1,89 @@
+{
+  "displayName": "AccordionPanel",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Whether or not the title is in the open state."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A shorthand for Accordion.Content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "number|string",
+      "required": false,
+      "description": [
+        "A panel index."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "index"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called when a panel title is clicked."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All item props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onTitleClick"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A shorthand for Accordion.Title."
+      ],
+      "tags": [],
+      "name": "title"
+    }
+  ],
+  "constructorName": "AccordionPanel",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Accordion",
+  "subcomponentName": "Panel",
+  "subcomponents": null,
+  "apiPath": "Accordion.Panel",
+  "componentClassName": "panel",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A panel sub-component for Accordion component."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Accordion/AccordionPanel.js",
+  "filename": "AccordionPanel.js",
+  "filenameWithoutExt": "AccordionPanel"
+}

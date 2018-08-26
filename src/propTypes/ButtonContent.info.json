@@ -1,0 +1,78 @@
+{
+  "displayName": "ButtonContent",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Initially hidden, visible on hover."
+      ],
+      "tags": [],
+      "name": "hidden"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Initially visible, hidden on hover."
+      ],
+      "tags": [],
+      "name": "visible"
+    }
+  ],
+  "constructorName": "ButtonContent",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Button",
+  "subcomponentName": "Content",
+  "subcomponents": null,
+  "apiPath": "Button.Content",
+  "componentClassName": "content",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "Used in some Button types, such as `animated`."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/Button/ButtonContent.js",
+  "filename": "ButtonContent.js",
+  "filenameWithoutExt": "ButtonContent"
+}

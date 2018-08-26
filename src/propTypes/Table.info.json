@@ -1,0 +1,385 @@
+{
+  "displayName": "Table",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "'table'",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "Attach table to other content"
+      ],
+      "tags": [],
+      "value": [
+        "top",
+        "bottom"
+      ],
+      "name": "attached"
+    },
+    {
+      "type": "enum|bool",
+      "required": false,
+      "description": [
+        "A table can reduce its complexity to increase readability."
+      ],
+      "tags": [],
+      "value": [
+        "very"
+      ],
+      "name": "basic"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A table may be divided each row into separate cells."
+      ],
+      "tags": [],
+      "name": "celled"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A table can be collapsing, taking up only as much space as its rows."
+      ],
+      "tags": [],
+      "name": "collapsing"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A table can be given a color to distinguish it from other tables."
+      ],
+      "tags": [],
+      "value": [
+        "red",
+        "orange",
+        "yellow",
+        "olive",
+        "green",
+        "teal",
+        "blue",
+        "violet",
+        "purple",
+        "pink",
+        "brown",
+        "grey",
+        "black"
+      ],
+      "name": "color"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A table can specify its column count to divide its content evenly."
+      ],
+      "tags": [],
+      "value": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen"
+      ],
+      "name": "columns"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A table may sometimes need to be more compact to make more rows visible at a time."
+      ],
+      "tags": [],
+      "value": [
+        "very"
+      ],
+      "name": "compact"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A table may be formatted to emphasize a first column that defines a rows content."
+      ],
+      "tags": [],
+      "name": "definition"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A table can use fixed a special faster form of table rendering that does not resize table cells based on content"
+      ],
+      "tags": [],
+      "name": "fixed"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for a TableRow to be placed within Table.Footer."
+      ],
+      "tags": [],
+      "name": "footerRow"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for a TableRow to be placed within Table.Header."
+      ],
+      "tags": [],
+      "name": "headerRow"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A table's colors can be inverted."
+      ],
+      "tags": [],
+      "name": "inverted"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A table may sometimes need to be more padded for legibility."
+      ],
+      "tags": [],
+      "value": [
+        "very"
+      ],
+      "name": "padded"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Mapped over `tableData` and should return shorthand for each Table.Row to be placed within Table.Body."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "An element in the `tableData` array.",
+          "type": {
+            "type": "AllLiteral"
+          },
+          "name": "data"
+        },
+        {
+          "title": "param",
+          "description": "The index of the current element in `tableData`.",
+          "type": {
+            "type": "NameExpression",
+            "name": "number"
+          },
+          "name": "index"
+        },
+        {
+          "title": "returns",
+          "description": "Shorthand for a Table.Row.",
+          "type": {
+            "type": "AllLiteral"
+          }
+        }
+      ],
+      "name": "renderBodyRow"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A table can have its rows appear selectable."
+      ],
+      "tags": [],
+      "name": "selectable"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A table can specify that its cell contents should remain on a single line and not wrap."
+      ],
+      "tags": [],
+      "name": "singleLine"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A table can also be small or large."
+      ],
+      "tags": [],
+      "value": [
+        "small",
+        "large"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A table may allow a user to sort contents by clicking on a table header."
+      ],
+      "tags": [],
+      "name": "sortable"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A table can specify how it stacks table content responsively."
+      ],
+      "tags": [],
+      "name": "stackable"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A table can stripe alternate rows of content with a darker color to increase contrast."
+      ],
+      "tags": [],
+      "name": "striped"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A table can be formatted to display complex structured data."
+      ],
+      "tags": [],
+      "name": "structured"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Data to be passed to the renderBodyRow function."
+      ],
+      "tags": [],
+      "name": "tableData"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A table can adjust its text alignment."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "center",
+        "right"
+      ],
+      "name": "textAlign"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A table can specify how it stacks table content responsively."
+      ],
+      "tags": [],
+      "name": "unstackable"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A table can adjust its text alignment."
+      ],
+      "tags": [],
+      "value": [
+        "bottom",
+        "middle",
+        "top"
+      ],
+      "name": "verticalAlign"
+    }
+  ],
+  "constructorName": "Table",
+  "type": "collection",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "TableBody",
+    "TableCell",
+    "TableFooter",
+    "TableHeader",
+    "TableHeaderCell",
+    "TableRow"
+  ],
+  "apiPath": "Table",
+  "componentClassName": "table",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A table displays a collections of data grouped into rows."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/collections/Table/Table.js",
+  "filename": "Table.js",
+  "filenameWithoutExt": "Table"
+}

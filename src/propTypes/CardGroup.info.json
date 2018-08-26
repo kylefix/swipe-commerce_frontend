@@ -1,0 +1,153 @@
+{
+  "displayName": "CardGroup",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A group of cards can center itself inside its container."
+      ],
+      "tags": [],
+      "name": "centered"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A group of cards can double its column width for mobile."
+      ],
+      "tags": [],
+      "name": "doubling"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand array of props for Card."
+      ],
+      "tags": [],
+      "name": "items"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A group of cards can set how many cards should exist in a row."
+      ],
+      "tags": [],
+      "value": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen"
+      ],
+      "name": "itemsPerRow"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A group of cards can automatically stack rows to a single columns on mobile devices."
+      ],
+      "tags": [],
+      "name": "stackable"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A card group can adjust its text alignment."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "center",
+        "right"
+      ],
+      "name": "textAlign"
+    }
+  ],
+  "constructorName": "CardGroup",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Card",
+  "subcomponentName": "Group",
+  "subcomponents": null,
+  "apiPath": "Card.Group",
+  "componentClassName": "cards",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A group of cards."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Card/CardGroup.js",
+  "filename": "CardGroup.js",
+  "filenameWithoutExt": "CardGroup"
+}

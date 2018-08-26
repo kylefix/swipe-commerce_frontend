@@ -1,0 +1,78 @@
+{
+  "displayName": "Comment",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Comment can be collapsed, or hidden from view."
+      ],
+      "tags": [],
+      "name": "collapsed"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "Comment",
+  "type": "view",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "CommentAction",
+    "CommentActions",
+    "CommentAuthor",
+    "CommentAvatar",
+    "CommentContent",
+    "CommentGroup",
+    "CommentMetadata",
+    "CommentText"
+  ],
+  "apiPath": "Comment",
+  "componentClassName": "comment",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A comment displays user feedback to site content."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/views/Comment/Comment.js",
+  "filename": "Comment.js",
+  "filenameWithoutExt": "Comment"
+}

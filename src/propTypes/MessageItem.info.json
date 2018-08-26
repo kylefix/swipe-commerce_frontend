@@ -1,0 +1,61 @@
+{
+  "displayName": "MessageItem",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "'li'",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "MessageItem",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Message",
+  "subcomponentName": "Item",
+  "subcomponents": null,
+  "apiPath": "Message.Item",
+  "componentClassName": "item",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A message list can contain an item."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Message/MessageItem.js",
+  "filename": "MessageItem.js",
+  "filenameWithoutExt": "MessageItem"
+}

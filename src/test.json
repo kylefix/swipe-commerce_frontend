@@ -1,0 +1,75 @@
+{
+  "type": "#Grid",
+  "props": {
+    "container": true,
+    "children": [{
+      "type": "#Grid.Row",
+      "props": {
+        "children": [{
+          "type": "#Grid.Columm",
+          "props": {
+            "children": [{
+              "type": "CartHeader"
+            }]
+          }
+        }]
+      }
+    }, {
+      "type": "#ShowsLoading",
+      "props": {
+        "isLoading": "#loading",
+        "children": [{
+          "type": "$if",
+          "props": {
+            "predicate": {
+              "$or": [
+                {"$not": "#cart"},
+                {"$not": "#cart.length"}
+            ]},
+            "children": [{
+              "type": "#Grid.Row",
+              "props": {
+                "centered": true,
+                "children": [{
+                  "type": "#Grid.Columm",
+                  "props": {
+                    "width": 12,
+                    "children": [{
+                      "type": "CartTable",
+                      "cart": "#cart"
+                    }]
+                  }
+                }, {
+                  "type": "#Grid.Row",
+                  "props": {
+                    "children": [{
+                      "type": "#Grid.Column",
+                      "props": {
+                        "floated": "right",
+                        "width": 4,
+                        "children": [{
+                          "type": "CartSummary"
+                        }, {
+                          "type": "CartCheckoutButton"
+                        }]
+                      }
+                    }]
+                  }
+                }]
+              }
+            }, {
+              "type": "Header",
+              "props": {
+                "as": "h1",
+                "textAlign": "center",
+                "style": {
+                  "margin": "3em"
+                }
+              }
+            }]
+          }
+        }]
+      }
+    }]
+  }
+}

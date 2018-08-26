@@ -1,0 +1,127 @@
+{
+  "displayName": "FormGroup",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Fields can show related choices."
+      ],
+      "tags": [],
+      "name": "grouped"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Multiple fields may be inline in a row."
+      ],
+      "tags": [],
+      "name": "inline"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A form group can prevent itself from stacking on mobile."
+      ],
+      "tags": [],
+      "name": "unstackable"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Fields Groups can specify their width in grid columns or automatically divide fields to be equal width."
+      ],
+      "tags": [],
+      "value": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen",
+        "equal"
+      ],
+      "name": "widths"
+    }
+  ],
+  "constructorName": "FormGroup",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Form",
+  "subcomponentName": "Group",
+  "subcomponents": null,
+  "apiPath": "Form.Group",
+  "componentClassName": "forms",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Form"
+      }
+    ],
+    "description": [
+      "A set of fields can appear grouped together."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Form/FormGroup.js",
+  "filename": "FormGroup.js",
+  "filenameWithoutExt": "FormGroup"
+}

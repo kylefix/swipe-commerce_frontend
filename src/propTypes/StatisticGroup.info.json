@@ -1,0 +1,170 @@
+{
+  "displayName": "StatisticGroup",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A statistic group can be formatted to be different colors."
+      ],
+      "tags": [],
+      "value": [
+        "red",
+        "orange",
+        "yellow",
+        "olive",
+        "green",
+        "teal",
+        "blue",
+        "violet",
+        "purple",
+        "pink",
+        "brown",
+        "grey",
+        "black"
+      ],
+      "name": "color"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A statistic group can present its measurement horizontally."
+      ],
+      "tags": [],
+      "name": "horizontal"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A statistic group can be formatted to fit on a dark background."
+      ],
+      "tags": [],
+      "name": "inverted"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Array of props for Statistic."
+      ],
+      "tags": [],
+      "name": "items"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A statistic group can vary in size."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "large",
+        "huge"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A statistic group can have its items divided evenly."
+      ],
+      "tags": [],
+      "value": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen"
+      ],
+      "name": "widths"
+    }
+  ],
+  "constructorName": "StatisticGroup",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Statistic",
+  "subcomponentName": "Group",
+  "subcomponents": null,
+  "apiPath": "Statistic.Group",
+  "componentClassName": "statistics",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A group of statistics."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Statistic/StatisticGroup.js",
+  "filename": "StatisticGroup.js",
+  "filenameWithoutExt": "StatisticGroup"
+}

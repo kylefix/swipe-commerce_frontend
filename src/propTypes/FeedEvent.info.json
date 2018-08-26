@@ -1,0 +1,123 @@
+{
+  "displayName": "FeedEvent",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for FeedContent."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for FeedDate."
+      ],
+      "tags": [],
+      "name": "date"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for FeedExtra with images."
+      ],
+      "tags": [],
+      "name": "extraImages"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for FeedExtra with content."
+      ],
+      "tags": [],
+      "name": "extraText"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An event can contain icon label."
+      ],
+      "tags": [],
+      "name": "icon"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An event can contain image label."
+      ],
+      "tags": [],
+      "name": "image"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for FeedMeta."
+      ],
+      "tags": [],
+      "name": "meta"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for FeedSummary."
+      ],
+      "tags": [],
+      "name": "summary"
+    }
+  ],
+  "constructorName": "FeedEvent",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Feed",
+  "subcomponentName": "Event",
+  "subcomponents": null,
+  "apiPath": "Feed.Event",
+  "componentClassName": "event",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A feed contains an event."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Feed/FeedEvent.js",
+  "filename": "FeedEvent.js",
+  "filenameWithoutExt": "FeedEvent"
+}

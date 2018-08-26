@@ -1,0 +1,121 @@
+{
+  "displayName": "LabelGroup",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Labels can share shapes."
+      ],
+      "tags": [],
+      "name": "circular"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Label group can share colors together."
+      ],
+      "tags": [],
+      "value": [
+        "red",
+        "orange",
+        "yellow",
+        "olive",
+        "green",
+        "teal",
+        "blue",
+        "violet",
+        "purple",
+        "pink",
+        "brown",
+        "grey",
+        "black"
+      ],
+      "name": "color"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Label group can share sizes together."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "medium",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Label group can share tag formatting."
+      ],
+      "tags": [],
+      "name": "tag"
+    }
+  ],
+  "constructorName": "LabelGroup",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Label",
+  "subcomponentName": "Group",
+  "subcomponents": null,
+  "apiPath": "Label.Group",
+  "componentClassName": "labels",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A label can be grouped."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/Label/LabelGroup.js",
+  "filename": "LabelGroup.js",
+  "filenameWithoutExt": "LabelGroup"
+}

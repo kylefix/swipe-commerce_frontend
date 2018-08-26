@@ -1,0 +1,60 @@
+{
+  "displayName": "StatisticLabel",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "StatisticLabel",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Statistic",
+  "subcomponentName": "Label",
+  "subcomponents": null,
+  "apiPath": "Statistic.Label",
+  "componentClassName": "label",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A statistic can contain a label to help provide context for the presented value."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Statistic/StatisticLabel.js",
+  "filename": "StatisticLabel.js",
+  "filenameWithoutExt": "StatisticLabel"
+}

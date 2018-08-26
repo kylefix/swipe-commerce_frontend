@@ -1,0 +1,83 @@
+{
+  "displayName": "Feed",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand array of props for FeedEvent."
+      ],
+      "tags": [],
+      "name": "events"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A feed can have different sizes."
+      ],
+      "tags": [],
+      "value": [
+        "small",
+        "large"
+      ],
+      "name": "size"
+    }
+  ],
+  "constructorName": "Feed",
+  "type": "view",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "FeedContent",
+    "FeedDate",
+    "FeedEvent",
+    "FeedExtra",
+    "FeedLabel",
+    "FeedLike",
+    "FeedMeta",
+    "FeedSummary",
+    "FeedUser"
+  ],
+  "apiPath": "Feed",
+  "componentClassName": "feed",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A feed presents user activity chronologically."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/views/Feed/Feed.js",
+  "filename": "Feed.js",
+  "filenameWithoutExt": "Feed"
+}

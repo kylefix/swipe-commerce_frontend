@@ -1,0 +1,60 @@
+{
+  "displayName": "CommentActions",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "CommentActions",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Comment",
+  "subcomponentName": "Actions",
+  "subcomponents": null,
+  "apiPath": "Comment.Actions",
+  "componentClassName": "actions",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A comment can contain an list of actions a user may perform related to this comment."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Comment/CommentActions.js",
+  "filename": "CommentActions.js",
+  "filenameWithoutExt": "CommentActions"
+}

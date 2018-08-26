@@ -1,0 +1,153 @@
+{
+  "displayName": "TableRow",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A row can be active or selected by a user."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "'tr'",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "'td'",
+      "tags": [],
+      "name": "cellAs"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand array of props for TableCell."
+      ],
+      "tags": [],
+      "name": "cells"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A row can be disabled."
+      ],
+      "tags": [],
+      "name": "disabled"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A row may call attention to an error or a negative value."
+      ],
+      "tags": [],
+      "name": "error"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A row may let a user know whether a value is bad."
+      ],
+      "tags": [],
+      "name": "negative"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A row may let a user know whether a value is good."
+      ],
+      "tags": [],
+      "name": "positive"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A table row can adjust its text alignment."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "center",
+        "right"
+      ],
+      "name": "textAlign"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A table row can adjust its vertical alignment."
+      ],
+      "tags": [],
+      "value": [
+        "bottom",
+        "middle",
+        "top"
+      ],
+      "name": "verticalAlign"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A row may warn a user."
+      ],
+      "tags": [],
+      "name": "warning"
+    }
+  ],
+  "constructorName": "TableRow",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Table",
+  "subcomponentName": "Row",
+  "subcomponents": null,
+  "apiPath": "Table.Row",
+  "componentClassName": "row",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A table can have rows."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Table/TableRow.js",
+  "filename": "TableRow.js",
+  "filenameWithoutExt": "TableRow"
+}

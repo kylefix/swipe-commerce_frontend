@@ -1,0 +1,105 @@
+{
+  "displayName": "CommentGroup",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Comments can be collapsed, or hidden from view."
+      ],
+      "tags": [],
+      "name": "collapsed"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Comments can hide extra information unless a user shows intent to interact with a comment."
+      ],
+      "tags": [],
+      "name": "minimal"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Comments can have different sizes."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A comment list can be threaded to showing the relationship between conversations."
+      ],
+      "tags": [],
+      "name": "threaded"
+    }
+  ],
+  "constructorName": "CommentGroup",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Comment",
+  "subcomponentName": "Group",
+  "subcomponents": null,
+  "apiPath": "Comment.Group",
+  "componentClassName": "comments",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "Comments can be grouped."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Comment/CommentGroup.js",
+  "filename": "CommentGroup.js",
+  "filenameWithoutExt": "CommentGroup"
+}

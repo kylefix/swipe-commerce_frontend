@@ -1,0 +1,144 @@
+{
+  "displayName": "ListItem",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A list item can active."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content.",
+        "",
+        "Heads up!",
+        "",
+        "This is handled slightly differently than the typical `content` prop since",
+        "the wrapping ListContent is not used when there's no icon or image.",
+        "",
+        "If you pass content as:",
+        "- an element/literal, it's treated as the sibling node to",
+        "header/description (whether wrapped in Item.Content or not).",
+        "- a props object, it forces the presence of Item.Content and passes those",
+        "props to it. If you pass a content prop within that props object, it",
+        "will be treated as the sibling node to header/description."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ListDescription."
+      ],
+      "tags": [],
+      "name": "description"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A list item can disabled."
+      ],
+      "tags": [],
+      "name": "disabled"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ListHeader."
+      ],
+      "tags": [],
+      "name": "header"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ListIcon."
+      ],
+      "tags": [],
+      "name": "icon"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for Image."
+      ],
+      "tags": [],
+      "name": "image"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "A ListItem can be clicked"
+      ],
+      "tags": [],
+      "name": "onClick"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "A value for an ordered list."
+      ],
+      "tags": [],
+      "name": "value"
+    }
+  ],
+  "constructorName": "ListItem",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "List",
+  "subcomponentName": "Item",
+  "subcomponents": null,
+  "apiPath": "List.Item",
+  "componentClassName": "item",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A list item can contain a set of items."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/List/ListItem.js",
+  "filename": "ListItem.js",
+  "filenameWithoutExt": "ListItem"
+}

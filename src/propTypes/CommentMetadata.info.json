@@ -1,0 +1,60 @@
+{
+  "displayName": "CommentMetadata",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "CommentMetadata",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Comment",
+  "subcomponentName": "Metadata",
+  "subcomponents": null,
+  "apiPath": "Comment.Metadata",
+  "componentClassName": "metadata",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A comment can contain metadata about the comment, an arbitrary amount of metadata may be defined."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Comment/CommentMetadata.js",
+  "filename": "CommentMetadata.js",
+  "filenameWithoutExt": "CommentMetadata"
+}

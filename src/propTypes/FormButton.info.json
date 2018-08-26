@@ -1,0 +1,53 @@
+{
+  "displayName": "FormButton",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "FormField",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A FormField control prop."
+      ],
+      "defaultValue": "Button",
+      "tags": [],
+      "name": "control"
+    }
+  ],
+  "constructorName": "FormButton",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Form",
+  "subcomponentName": "Button",
+  "subcomponents": null,
+  "apiPath": "Form.Button",
+  "componentClassName": "button",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Button"
+      },
+      {
+        "title": "see",
+        "description": "Form"
+      }
+    ],
+    "description": [
+      "Sugar for <Form.Field control={Button} />."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Form/FormButton.js",
+  "filename": "FormButton.js",
+  "filenameWithoutExt": "FormButton"
+}

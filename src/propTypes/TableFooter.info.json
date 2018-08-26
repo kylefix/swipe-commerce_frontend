@@ -1,0 +1,34 @@
+{
+  "displayName": "TableFooter",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "'tfoot'",
+      "tags": [],
+      "name": "as"
+    }
+  ],
+  "constructorName": "TableFooter",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Table",
+  "subcomponentName": "Footer",
+  "subcomponents": null,
+  "apiPath": "Table.Footer",
+  "componentClassName": "footer",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A table can have a footer."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Table/TableFooter.js",
+  "filename": "TableFooter.js",
+  "filenameWithoutExt": "TableFooter"
+}

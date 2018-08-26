@@ -1,0 +1,272 @@
+{
+  "displayName": "Message",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A message can be formatted to attach itself to other content."
+      ],
+      "tags": [],
+      "value": [
+        "bottom",
+        "top"
+      ],
+      "name": "attached"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A message can be formatted to be different colors."
+      ],
+      "tags": [],
+      "value": [
+        "red",
+        "orange",
+        "yellow",
+        "olive",
+        "green",
+        "teal",
+        "blue",
+        "violet",
+        "purple",
+        "pink",
+        "brown",
+        "grey",
+        "black"
+      ],
+      "name": "color"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A message can only take up the width of its content."
+      ],
+      "tags": [],
+      "name": "compact"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A message may be formatted to display a negative message. Same as `negative`."
+      ],
+      "tags": [],
+      "name": "error"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A message can float above content that it is related to."
+      ],
+      "tags": [],
+      "name": "floating"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for MessageHeader."
+      ],
+      "tags": [],
+      "name": "header"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A message can be hidden."
+      ],
+      "tags": [],
+      "name": "hidden"
+    },
+    {
+      "type": "custom|bool",
+      "required": false,
+      "description": [
+        "A message can contain an icon."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "icon"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A message may be formatted to display information."
+      ],
+      "tags": [],
+      "name": "info"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Array shorthand items for the MessageList. Mutually exclusive with children."
+      ],
+      "tags": [],
+      "name": "list"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A message may be formatted to display a negative message. Same as `error`."
+      ],
+      "tags": [],
+      "name": "negative"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "A message that the user can choose to hide.",
+        "Called when the user clicks the \"x\" icon. This also adds the \"x\" icon."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onDismiss"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A message may be formatted to display a positive message.  Same as `success`."
+      ],
+      "tags": [],
+      "name": "positive"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A message can have different sizes."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A message may be formatted to display a positive message.  Same as `positive`."
+      ],
+      "tags": [],
+      "name": "success"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A message can be set to visible to force itself to be shown."
+      ],
+      "tags": [],
+      "name": "visible"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A message may be formatted to display warning messages."
+      ],
+      "tags": [],
+      "name": "warning"
+    }
+  ],
+  "constructorName": "Message",
+  "type": "collection",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "MessageContent",
+    "MessageHeader",
+    "MessageItem",
+    "MessageList"
+  ],
+  "apiPath": "Message",
+  "componentClassName": "message",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Form"
+      }
+    ],
+    "description": [
+      "A message displays information that explains nearby content."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/collections/Message/Message.js",
+  "filename": "Message.js",
+  "filenameWithoutExt": "Message"
+}

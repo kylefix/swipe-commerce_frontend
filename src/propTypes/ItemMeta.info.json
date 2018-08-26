@@ -1,0 +1,60 @@
+{
+  "displayName": "ItemMeta",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "ItemMeta",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Item",
+  "subcomponentName": "Meta",
+  "subcomponents": null,
+  "apiPath": "Item.Meta",
+  "componentClassName": "meta",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "An item can contain content metadata."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Item/ItemMeta.js",
+  "filename": "ItemMeta.js",
+  "filenameWithoutExt": "ItemMeta"
+}

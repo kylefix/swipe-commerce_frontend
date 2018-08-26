@@ -1,0 +1,162 @@
+{
+  "displayName": "Statistic",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A statistic can be formatted to be different colors."
+      ],
+      "tags": [],
+      "value": [
+        "red",
+        "orange",
+        "yellow",
+        "olive",
+        "green",
+        "teal",
+        "blue",
+        "violet",
+        "purple",
+        "pink",
+        "brown",
+        "grey",
+        "black"
+      ],
+      "name": "color"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A statistic can sit to the left or right of other content."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "right"
+      ],
+      "name": "floated"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A statistic can present its measurement horizontally."
+      ],
+      "tags": [],
+      "name": "horizontal"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A statistic can be formatted to fit on a dark background."
+      ],
+      "tags": [],
+      "name": "inverted"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Label content of the Statistic."
+      ],
+      "tags": [],
+      "name": "label"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A statistic can vary in size."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "large",
+        "huge"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Format the StatisticValue with smaller font size to fit nicely beside number values."
+      ],
+      "tags": [],
+      "name": "text"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Value content of the Statistic."
+      ],
+      "tags": [],
+      "name": "value"
+    }
+  ],
+  "constructorName": "Statistic",
+  "type": "view",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "StatisticGroup",
+    "StatisticLabel",
+    "StatisticValue"
+  ],
+  "apiPath": "Statistic",
+  "componentClassName": "statistic",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A statistic emphasizes the current value of an attribute."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/views/Statistic/Statistic.js",
+  "filename": "Statistic.js",
+  "filenameWithoutExt": "Statistic"
+}

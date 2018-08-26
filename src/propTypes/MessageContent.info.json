@@ -1,0 +1,60 @@
+{
+  "displayName": "MessageContent",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "MessageContent",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Message",
+  "subcomponentName": "Content",
+  "subcomponents": null,
+  "apiPath": "Message.Content",
+  "componentClassName": "content",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A message can contain a content."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Message/MessageContent.js",
+  "filename": "MessageContent.js",
+  "filenameWithoutExt": "MessageContent"
+}

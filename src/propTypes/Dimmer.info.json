@@ -1,0 +1,45 @@
+{
+  "displayName": "Dimmer",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "An active dimmer will dim its parent container."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A dimmer can be formatted to be fixed to the page."
+      ],
+      "tags": [],
+      "name": "page"
+    }
+  ],
+  "constructorName": "Dimmer",
+  "type": "module",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "DimmerDimmable",
+    "DimmerInner"
+  ],
+  "apiPath": "Dimmer",
+  "componentClassName": "dimmer",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A dimmer hides distractions to focus attention on particular content."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/modules/Dimmer/Dimmer.js",
+  "filename": "Dimmer.js",
+  "filenameWithoutExt": "Dimmer"
+}

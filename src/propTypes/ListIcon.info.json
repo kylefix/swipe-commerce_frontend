@@ -1,0 +1,47 @@
+{
+  "displayName": "ListIcon",
+  "props": [
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "An element inside a list can be vertically aligned."
+      ],
+      "tags": [],
+      "value": [
+        "bottom",
+        "middle",
+        "top"
+      ],
+      "name": "verticalAlign"
+    }
+  ],
+  "constructorName": "ListIcon",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "List",
+  "subcomponentName": "Icon",
+  "subcomponents": null,
+  "apiPath": "List.Icon",
+  "componentClassName": "icon",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A list item can contain an icon."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/List/ListIcon.js",
+  "filename": "ListIcon.js",
+  "filenameWithoutExt": "ListIcon"
+}

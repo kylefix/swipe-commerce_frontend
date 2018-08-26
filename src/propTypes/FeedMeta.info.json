@@ -1,0 +1,69 @@
+{
+  "displayName": "FeedMeta",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for FeedLike."
+      ],
+      "tags": [],
+      "name": "like"
+    }
+  ],
+  "constructorName": "FeedMeta",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Feed",
+  "subcomponentName": "Meta",
+  "subcomponents": null,
+  "apiPath": "Feed.Meta",
+  "componentClassName": "meta",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A feed can contain a meta."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Feed/FeedMeta.js",
+  "filename": "FeedMeta.js",
+  "filenameWithoutExt": "FeedMeta"
+}

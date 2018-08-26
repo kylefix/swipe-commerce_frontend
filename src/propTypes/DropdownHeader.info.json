@@ -1,0 +1,69 @@
+{
+  "displayName": "DropdownHeader",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)"
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for Icon."
+      ],
+      "tags": [],
+      "name": "icon"
+    }
+  ],
+  "constructorName": "DropdownHeader",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Dropdown",
+  "subcomponentName": "Header",
+  "subcomponents": null,
+  "apiPath": "Dropdown.Header",
+  "componentClassName": "header",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A dropdown menu can contain a header."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Dropdown/DropdownHeader.js",
+  "filename": "DropdownHeader.js",
+  "filenameWithoutExt": "DropdownHeader"
+}

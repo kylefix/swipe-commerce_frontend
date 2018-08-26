@@ -1,0 +1,113 @@
+{
+  "displayName": "Item",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ItemContent component."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ItemDescription component."
+      ],
+      "tags": [],
+      "name": "description"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ItemExtra component."
+      ],
+      "tags": [],
+      "name": "extra"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ItemHeader component."
+      ],
+      "tags": [],
+      "name": "header"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ItemImage component."
+      ],
+      "tags": [],
+      "name": "image"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ItemMeta component."
+      ],
+      "tags": [],
+      "name": "meta"
+    }
+  ],
+  "constructorName": "Item",
+  "type": "view",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "ItemContent",
+    "ItemDescription",
+    "ItemExtra",
+    "ItemGroup",
+    "ItemHeader",
+    "ItemImage",
+    "ItemMeta"
+  ],
+  "apiPath": "Item",
+  "componentClassName": "item",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "An item view presents large collections of site content for display."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/views/Item/Item.js",
+  "filename": "Item.js",
+  "filenameWithoutExt": "Item"
+}

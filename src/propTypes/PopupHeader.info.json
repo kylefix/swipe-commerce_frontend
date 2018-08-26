@@ -1,0 +1,60 @@
+{
+  "displayName": "PopupHeader",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "PopupHeader",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Popup",
+  "subcomponentName": "Header",
+  "subcomponents": null,
+  "apiPath": "Popup.Header",
+  "componentClassName": "header",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A PopupHeader displays a header in a Popover."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Popup/PopupHeader.js",
+  "filename": "PopupHeader.js",
+  "filenameWithoutExt": "PopupHeader"
+}

@@ -1,0 +1,60 @@
+{
+  "displayName": "ListDescription",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "ListDescription",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "List",
+  "subcomponentName": "Description",
+  "subcomponents": null,
+  "apiPath": "List.Description",
+  "componentClassName": "description",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A list item can contain a description."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/List/ListDescription.js",
+  "filename": "ListDescription.js",
+  "filenameWithoutExt": "ListDescription"
+}

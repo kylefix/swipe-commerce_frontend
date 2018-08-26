@@ -1,0 +1,110 @@
+{
+  "displayName": "CardContent",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for CardDescription."
+      ],
+      "tags": [],
+      "name": "description"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A card can contain extra content meant to be formatted separately from the main content."
+      ],
+      "tags": [],
+      "name": "extra"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for CardHeader."
+      ],
+      "tags": [],
+      "name": "header"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for CardMeta."
+      ],
+      "tags": [],
+      "name": "meta"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A card content can adjust its text alignment."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "center",
+        "right"
+      ],
+      "name": "textAlign"
+    }
+  ],
+  "constructorName": "CardContent",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Card",
+  "subcomponentName": "Content",
+  "subcomponents": null,
+  "apiPath": "Card.Content",
+  "componentClassName": "content",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A card can contain blocks of content or extra content meant to be formatted separately from the main content."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Card/CardContent.js",
+  "filename": "CardContent.js",
+  "filenameWithoutExt": "CardContent"
+}

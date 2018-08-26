@@ -1,0 +1,74 @@
+{
+  "displayName": "CardHeader",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A card header can adjust its text alignment."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "center",
+        "right"
+      ],
+      "name": "textAlign"
+    }
+  ],
+  "constructorName": "CardHeader",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Card",
+  "subcomponentName": "Header",
+  "subcomponents": null,
+  "apiPath": "Card.Header",
+  "componentClassName": "header",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A card can contain a header."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Card/CardHeader.js",
+  "filename": "CardHeader.js",
+  "filenameWithoutExt": "CardHeader"
+}

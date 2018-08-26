@@ -1,0 +1,254 @@
+{
+  "displayName": "Image",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "'img'",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "An image may be formatted to appear inline with text as an avatar."
+      ],
+      "tags": [],
+      "name": "avatar"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "An image may include a border to emphasize the edges of white or transparent content."
+      ],
+      "tags": [],
+      "name": "bordered"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "An image can appear centered in a content block."
+      ],
+      "tags": [],
+      "name": "centered"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "An image may appear circular."
+      ],
+      "tags": [],
+      "name": "circular"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for Dimmer."
+      ],
+      "tags": [],
+      "name": "dimmer"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "An image can show that it is disabled and cannot be selected."
+      ],
+      "tags": [],
+      "name": "disabled"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "An image can sit to the left or right of other content."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "right"
+      ],
+      "name": "floated"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An image can take up the width of its container."
+      ],
+      "tags": [],
+      "name": "fluid"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "An image can be hidden."
+      ],
+      "tags": [],
+      "name": "hidden"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Renders the Image as an <a> tag with this href."
+      ],
+      "tags": [],
+      "name": "href"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "An image may appear inline."
+      ],
+      "tags": [],
+      "name": "inline"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for Label."
+      ],
+      "tags": [],
+      "name": "label"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "An image may appear rounded."
+      ],
+      "tags": [],
+      "name": "rounded"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "An image may appear at different sizes."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "medium",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "An image can specify that it needs an additional spacing to separate it from nearby content."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "right"
+      ],
+      "name": "spaced"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Whether or not to add the ui className."
+      ],
+      "defaultValue": "true",
+      "tags": [],
+      "name": "ui"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "An image can specify its vertical alignment."
+      ],
+      "tags": [],
+      "value": [
+        "bottom",
+        "middle",
+        "top"
+      ],
+      "name": "verticalAlign"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "An image can render wrapped in a `div.ui.image` as alternative HTML markup."
+      ],
+      "tags": [],
+      "name": "wrapped"
+    }
+  ],
+  "constructorName": "Image",
+  "type": "element",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "ImageGroup"
+  ],
+  "apiPath": "Image",
+  "componentClassName": "image",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Icon"
+      }
+    ],
+    "description": [
+      "An image is a graphic representation of something."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/elements/Image/Image.js",
+  "filename": "Image.js",
+  "filenameWithoutExt": "Image"
+}

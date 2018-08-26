@@ -1,0 +1,62 @@
+{
+  "displayName": "Radio",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Format to emphasize the current selection state."
+      ],
+      "tags": [],
+      "name": "slider"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Format to show an on or off choice."
+      ],
+      "tags": [],
+      "name": "toggle"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "HTML input type, either checkbox or radio."
+      ],
+      "defaultValue": "'radio'",
+      "tags": [],
+      "name": "type"
+    }
+  ],
+  "constructorName": "Radio",
+  "type": "addon",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [],
+  "apiPath": "Radio",
+  "componentClassName": "radio",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Checkbox"
+      },
+      {
+        "title": "see",
+        "description": "Form"
+      }
+    ],
+    "description": [
+      "A Radio is sugar for <Checkbox radio />.",
+      "Useful for exclusive groups of sliders or toggles."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/addons/Radio/Radio.js",
+  "filename": "Radio.js",
+  "filenameWithoutExt": "Radio"
+}

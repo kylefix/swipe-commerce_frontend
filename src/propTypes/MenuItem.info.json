@@ -1,0 +1,203 @@
+{
+  "displayName": "MenuItem",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A menu item can be active."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Additional colors can be specified."
+      ],
+      "tags": [],
+      "value": [
+        "red",
+        "orange",
+        "yellow",
+        "olive",
+        "green",
+        "teal",
+        "blue",
+        "violet",
+        "purple",
+        "pink",
+        "brown",
+        "grey",
+        "black"
+      ],
+      "name": "color"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A menu item can be disabled."
+      ],
+      "tags": [],
+      "name": "disabled"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A menu item or menu can remove element padding, vertically or horizontally."
+      ],
+      "tags": [],
+      "value": [
+        "horizontally",
+        "vertically"
+      ],
+      "name": "fitted"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A menu item may include a header or may itself be a header."
+      ],
+      "tags": [],
+      "name": "header"
+    },
+    {
+      "type": "bool|custom",
+      "required": false,
+      "description": [
+        "MenuItem can be only icon."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "icon"
+    },
+    {
+      "type": "number",
+      "required": false,
+      "description": [
+        "MenuItem index inside Menu."
+      ],
+      "tags": [],
+      "name": "index"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A menu item can be link."
+      ],
+      "tags": [],
+      "name": "link"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Internal name of the MenuItem."
+      ],
+      "tags": [],
+      "name": "name"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called on click. When passed, the component will render as an `a`",
+        "tag by default instead of a `div`."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onClick"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A menu item can take left or right position."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "right"
+      ],
+      "name": "position"
+    }
+  ],
+  "constructorName": "MenuItem",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Menu",
+  "subcomponentName": "Item",
+  "subcomponents": null,
+  "apiPath": "Menu.Item",
+  "componentClassName": "item",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A menu can contain an item."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Menu/MenuItem.js",
+  "filename": "MenuItem.js",
+  "filenameWithoutExt": "MenuItem"
+}

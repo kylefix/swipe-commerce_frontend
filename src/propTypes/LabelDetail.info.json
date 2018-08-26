@@ -1,0 +1,60 @@
+{
+  "displayName": "LabelDetail",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "LabelDetail",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Label",
+  "subcomponentName": "Detail",
+  "subcomponents": null,
+  "apiPath": "Label.Detail",
+  "componentClassName": "detail",
+  "docblock": {
+    "tags": [],
+    "description": [
+      ""
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/Label/LabelDetail.js",
+  "filename": "LabelDetail.js",
+  "filenameWithoutExt": "LabelDetail"
+}

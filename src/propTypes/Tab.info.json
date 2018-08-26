@@ -1,0 +1,176 @@
+{
+  "displayName": "Tab",
+  "props": [
+    {
+      "type": "number|string",
+      "required": false,
+      "description": [
+        "Index of the currently active tab."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "activeIndex"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "number|string",
+      "required": false,
+      "description": [
+        "The initial activeIndex."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "defaultActiveIndex"
+    },
+    {
+      "type": "object",
+      "required": false,
+      "description": [
+        "Shorthand props for the Grid."
+      ],
+      "defaultValue": "{ paneWidth: 12, tabWidth: 4 }",
+      "tags": [],
+      "name": "grid"
+    },
+    {
+      "type": "object",
+      "required": false,
+      "description": [
+        "Shorthand props for the Menu.",
+        "tabular, if true, will derive final value from `menuPosition`, otherwise set 'left' or 'right' explicitly."
+      ],
+      "defaultValue": "{ attached: true, tabular: true }",
+      "tags": [],
+      "name": "menu"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Align vertical menu"
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "right"
+      ],
+      "name": "menuPosition"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called on tab change."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props and proposed new activeIndex.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        },
+        {
+          "title": "param",
+          "description": "The new proposed activeIndex.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data.activeIndex"
+        }
+      ],
+      "name": "onTabChange"
+    },
+    {
+      "type": "arrayOf",
+      "required": false,
+      "description": [
+        "Array of objects describing each Menu.Item and Tab.Pane:",
+        "{ menuItem: 'Home', render: () => <Tab.Pane /> }",
+        "or",
+        "{ menuItem: 'Home', pane: 'Welcome' }"
+      ],
+      "tags": [],
+      "value": {
+        "name": "shape",
+        "value": {
+          "menuItem": {
+            "name": "custom",
+            "raw": "customPropTypes.itemShorthand",
+            "required": false
+          },
+          "pane": {
+            "name": "custom",
+            "raw": "customPropTypes.itemShorthand",
+            "required": false
+          },
+          "render": {
+            "name": "func",
+            "required": false
+          }
+        }
+      },
+      "name": "panes"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A Tab can render only active pane."
+      ],
+      "defaultValue": "true",
+      "tags": [],
+      "name": "renderActiveOnly"
+    }
+  ],
+  "constructorName": "Tab",
+  "type": "module",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "TabPane"
+  ],
+  "apiPath": "Tab",
+  "componentClassName": "tab",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Menu"
+      },
+      {
+        "title": "see",
+        "description": "Segment"
+      }
+    ],
+    "description": [
+      "A Tab is a hidden section of content activated by a Menu."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/modules/Tab/Tab.js",
+  "filename": "Tab.js",
+  "filenameWithoutExt": "Tab"
+}

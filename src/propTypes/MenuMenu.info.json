@@ -1,0 +1,73 @@
+{
+  "displayName": "MenuMenu",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A sub menu can take left or right position."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "right"
+      ],
+      "name": "position"
+    }
+  ],
+  "constructorName": "MenuMenu",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Menu",
+  "subcomponentName": "Menu",
+  "subcomponents": null,
+  "apiPath": "Menu.Menu",
+  "componentClassName": "menu",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A menu can contain a sub menu."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Menu/MenuMenu.js",
+  "filename": "MenuMenu.js",
+  "filenameWithoutExt": "MenuMenu"
+}

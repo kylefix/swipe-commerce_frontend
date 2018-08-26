@@ -1,0 +1,42 @@
+{
+  "displayName": "DropdownDivider",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    }
+  ],
+  "constructorName": "DropdownDivider",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Dropdown",
+  "subcomponentName": "Divider",
+  "subcomponents": null,
+  "apiPath": "Dropdown.Divider",
+  "componentClassName": "divider",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A dropdown menu can contain dividers to separate related content."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Dropdown/DropdownDivider.js",
+  "filename": "DropdownDivider.js",
+  "filenameWithoutExt": "DropdownDivider"
+}

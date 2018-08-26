@@ -1,0 +1,53 @@
+{
+  "displayName": "FormDropdown",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "FormField",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A FormField control prop."
+      ],
+      "defaultValue": "Dropdown",
+      "tags": [],
+      "name": "control"
+    }
+  ],
+  "constructorName": "FormDropdown",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Form",
+  "subcomponentName": "Dropdown",
+  "subcomponents": null,
+  "apiPath": "Form.Dropdown",
+  "componentClassName": "dropdown",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Dropdown"
+      },
+      {
+        "title": "see",
+        "description": "Form"
+      }
+    ],
+    "description": [
+      "Sugar for <Form.Field control={Dropdown} />."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Form/FormDropdown.js",
+  "filename": "FormDropdown.js",
+  "filenameWithoutExt": "FormDropdown"
+}

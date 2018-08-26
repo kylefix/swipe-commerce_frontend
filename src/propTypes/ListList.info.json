@@ -1,0 +1,60 @@
+{
+  "displayName": "ListList",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "ListList",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "List",
+  "subcomponentName": "List",
+  "subcomponents": null,
+  "apiPath": "List.List",
+  "componentClassName": "list",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A list can contain a sub list."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/List/ListList.js",
+  "filename": "ListList.js",
+  "filenameWithoutExt": "ListList"
+}

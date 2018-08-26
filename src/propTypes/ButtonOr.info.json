@@ -1,0 +1,52 @@
+{
+  "displayName": "ButtonOr",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "number|string",
+      "required": false,
+      "description": [
+        "Or buttons can have their text localized, or adjusted by using the text prop."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "text"
+    }
+  ],
+  "constructorName": "ButtonOr",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Button",
+  "subcomponentName": "Or",
+  "subcomponents": null,
+  "apiPath": "Button.Or",
+  "componentClassName": "or",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "Button groups can contain conditionals."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/Button/ButtonOr.js",
+  "filename": "ButtonOr.js",
+  "filenameWithoutExt": "ButtonOr"
+}

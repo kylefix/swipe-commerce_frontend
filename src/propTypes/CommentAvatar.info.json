@@ -1,0 +1,51 @@
+{
+  "displayName": "CommentAvatar",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Specifies the URL of the image."
+      ],
+      "tags": [],
+      "name": "src"
+    }
+  ],
+  "constructorName": "CommentAvatar",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Comment",
+  "subcomponentName": "Avatar",
+  "subcomponents": null,
+  "apiPath": "Comment.Avatar",
+  "componentClassName": "avatar",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A comment can contain an image or avatar."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Comment/CommentAvatar.js",
+  "filename": "CommentAvatar.js",
+  "filenameWithoutExt": "CommentAvatar"
+}

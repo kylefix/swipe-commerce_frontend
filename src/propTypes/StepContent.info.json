@@ -1,0 +1,78 @@
+{
+  "displayName": "StepContent",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for StepDescription."
+      ],
+      "tags": [],
+      "name": "description"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for StepTitle."
+      ],
+      "tags": [],
+      "name": "title"
+    }
+  ],
+  "constructorName": "StepContent",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Step",
+  "subcomponentName": "Content",
+  "subcomponents": null,
+  "apiPath": "Step.Content",
+  "componentClassName": "content",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A step can contain a content."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/Step/StepContent.js",
+  "filename": "StepContent.js",
+  "filenameWithoutExt": "StepContent"
+}

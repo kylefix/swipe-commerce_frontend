@@ -1,0 +1,60 @@
+{
+  "displayName": "MessageHeader",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "MessageHeader",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Message",
+  "subcomponentName": "Header",
+  "subcomponents": null,
+  "apiPath": "Message.Header",
+  "componentClassName": "header",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A message can contain a header."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Message/MessageHeader.js",
+  "filename": "MessageHeader.js",
+  "filenameWithoutExt": "MessageHeader"
+}

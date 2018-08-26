@@ -1,0 +1,52 @@
+{
+  "displayName": "TableBody",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "'tbody'",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    }
+  ],
+  "constructorName": "TableBody",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Table",
+  "subcomponentName": "Body",
+  "subcomponents": null,
+  "apiPath": "Table.Body",
+  "componentClassName": "body",
+  "docblock": {
+    "tags": [],
+    "description": [
+      ""
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Table/TableBody.js",
+  "filename": "TableBody.js",
+  "filenameWithoutExt": "TableBody"
+}

@@ -1,0 +1,91 @@
+{
+  "displayName": "DropdownMenu",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A dropdown menu can open to the left or to the right."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "right"
+      ],
+      "name": "direction"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Whether or not the dropdown menu is displayed."
+      ],
+      "tags": [],
+      "name": "open"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A dropdown menu can scroll."
+      ],
+      "tags": [],
+      "name": "scrolling"
+    }
+  ],
+  "constructorName": "DropdownMenu",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Dropdown",
+  "subcomponentName": "Menu",
+  "subcomponents": null,
+  "apiPath": "Dropdown.Menu",
+  "componentClassName": "menu",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A dropdown menu can contain a menu."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Dropdown/DropdownMenu.js",
+  "filename": "DropdownMenu.js",
+  "filenameWithoutExt": "DropdownMenu"
+}

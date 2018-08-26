@@ -1,0 +1,114 @@
+{
+  "displayName": "SearchCategory",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "The item currently selected by keyboard shortcut."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Display name."
+      ],
+      "tags": [],
+      "name": "name"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Renders the category contents."
+      ],
+      "defaultValue": "({ name }) => name",
+      "tags": [
+        {
+          "title": "param",
+          "description": "The SearchCategory props object.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "props"
+        },
+        {
+          "title": "returns",
+          "description": "Renderable category contents.",
+          "type": {
+            "type": "AllLiteral"
+          }
+        }
+      ],
+      "name": "renderer"
+    },
+    {
+      "type": "array",
+      "required": false,
+      "description": [
+        "Array of Search.Result props."
+      ],
+      "tags": [],
+      "name": "results"
+    }
+  ],
+  "constructorName": "SearchCategory",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Search",
+  "subcomponentName": "Category",
+  "subcomponents": null,
+  "apiPath": "Search.Category",
+  "componentClassName": "category",
+  "docblock": {
+    "tags": [],
+    "description": [
+      ""
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Search/SearchCategory.js",
+  "filename": "SearchCategory.js",
+  "filenameWithoutExt": "SearchCategory"
+}

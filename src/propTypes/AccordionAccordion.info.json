@@ -1,0 +1,116 @@
+{
+  "displayName": "AccordionAccordion",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Index of the currently active panel."
+      ],
+      "tags": [],
+      "name": "activeIndex"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Initial activeIndex value."
+      ],
+      "tags": [],
+      "name": "defaultActiveIndex"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Only allow one panel open at a time."
+      ],
+      "defaultValue": "true",
+      "tags": [],
+      "name": "exclusive"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Called when a panel title is clicked."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All item props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onTitleClick"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand array of props for Accordion."
+      ],
+      "tags": [],
+      "name": "panels"
+    }
+  ],
+  "constructorName": "AccordionAccordion",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Accordion",
+  "subcomponentName": "Accordion",
+  "subcomponents": null,
+  "apiPath": "Accordion.Accordion",
+  "componentClassName": "accordion",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "An Accordion can contain sub-accordions."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Accordion/AccordionAccordion.js",
+  "filename": "AccordionAccordion.js",
+  "filenameWithoutExt": "AccordionAccordion"
+}

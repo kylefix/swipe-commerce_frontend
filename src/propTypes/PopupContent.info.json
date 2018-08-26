@@ -1,0 +1,60 @@
+{
+  "displayName": "PopupContent",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "The content of the Popup"
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Classes to add to the Popup content className."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "PopupContent",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Popup",
+  "subcomponentName": "Content",
+  "subcomponents": null,
+  "apiPath": "Popup.Content",
+  "componentClassName": "content",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A PopupContent displays the content body of a Popover."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Popup/PopupContent.js",
+  "filename": "PopupContent.js",
+  "filenameWithoutExt": "PopupContent"
+}

@@ -1,0 +1,319 @@
+{
+  "displayName": "Label",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A label can be active."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A label can attach to a content segment."
+      ],
+      "tags": [],
+      "value": [
+        "top",
+        "bottom",
+        "top right",
+        "top left",
+        "bottom left",
+        "bottom right"
+      ],
+      "name": "attached"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A label can reduce its complexity."
+      ],
+      "tags": [],
+      "name": "basic"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A label can be circular."
+      ],
+      "tags": [],
+      "name": "circular"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Color of the label."
+      ],
+      "tags": [],
+      "value": [
+        "red",
+        "orange",
+        "yellow",
+        "olive",
+        "green",
+        "teal",
+        "blue",
+        "violet",
+        "purple",
+        "pink",
+        "brown",
+        "grey",
+        "black"
+      ],
+      "name": "color"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A label can position itself in the corner of an element."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "right"
+      ],
+      "name": "corner"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for LabelDetail."
+      ],
+      "tags": [],
+      "name": "detail"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Formats the label as a dot."
+      ],
+      "tags": [],
+      "name": "empty"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Float above another element in the upper right corner."
+      ],
+      "tags": [],
+      "name": "floating"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A horizontal label is formatted to label content along-side it horizontally."
+      ],
+      "tags": [],
+      "name": "horizontal"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for Icon."
+      ],
+      "tags": [],
+      "name": "icon"
+    },
+    {
+      "type": "bool|custom",
+      "required": false,
+      "description": [
+        "A label can be formatted to emphasize an image or prop can be used as shorthand for Image."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "image"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called on click."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onClick"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Adds an \"x\" icon, called when \"x\" is clicked."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onRemove"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A label can point to content next to it."
+      ],
+      "tags": [],
+      "value": [
+        "above",
+        "below",
+        "left",
+        "right"
+      ],
+      "name": "pointing"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for Icon to appear as the last child and trigger onRemove."
+      ],
+      "tags": [],
+      "name": "removeIcon"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A label can appear as a ribbon attaching itself to an element."
+      ],
+      "tags": [],
+      "value": [
+        "right"
+      ],
+      "name": "ribbon"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A label can have different sizes."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "medium",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A label can appear as a tag."
+      ],
+      "tags": [],
+      "name": "tag"
+    }
+  ],
+  "constructorName": "Label",
+  "type": "element",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "LabelDetail",
+    "LabelGroup"
+  ],
+  "apiPath": "Label",
+  "componentClassName": "label",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A label displays content classification."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/elements/Label/Label.js",
+  "filename": "Label.js",
+  "filenameWithoutExt": "Label"
+}

@@ -1,0 +1,100 @@
+{
+  "displayName": "Breadcrumb",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content of the Breadcrumb.Divider."
+      ],
+      "tags": [],
+      "name": "divider"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "For use with the sections prop. Render as an `Icon` component with `divider` class instead of a `div` in",
+        "Breadcrumb.Divider."
+      ],
+      "tags": [],
+      "name": "icon"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand array of props for Breadcrumb.Section."
+      ],
+      "tags": [],
+      "name": "sections"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Size of Breadcrumb."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    }
+  ],
+  "constructorName": "Breadcrumb",
+  "type": "collection",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "BreadcrumbDivider",
+    "BreadcrumbSection"
+  ],
+  "apiPath": "Breadcrumb",
+  "componentClassName": "breadcrumb",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A breadcrumb is used to show hierarchy between content."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/collections/Breadcrumb/Breadcrumb.js",
+  "filename": "Breadcrumb.js",
+  "filenameWithoutExt": "Breadcrumb"
+}

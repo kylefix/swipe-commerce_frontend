@@ -1,0 +1,53 @@
+{
+  "displayName": "FormRadio",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "FormField",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A FormField control prop."
+      ],
+      "defaultValue": "Radio",
+      "tags": [],
+      "name": "control"
+    }
+  ],
+  "constructorName": "FormRadio",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Form",
+  "subcomponentName": "Radio",
+  "subcomponents": null,
+  "apiPath": "Form.Radio",
+  "componentClassName": "radio",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Form"
+      },
+      {
+        "title": "see",
+        "description": "Radio"
+      }
+    ],
+    "description": [
+      "Sugar for <Form.Field control={Radio} />."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Form/FormRadio.js",
+  "filename": "FormRadio.js",
+  "filenameWithoutExt": "FormRadio"
+}

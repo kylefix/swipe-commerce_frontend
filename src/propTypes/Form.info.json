@@ -1,0 +1,206 @@
+{
+  "displayName": "Form",
+  "props": [
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "The HTML form action"
+      ],
+      "tags": [],
+      "name": "action"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "'form'",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Automatically show any error Message children."
+      ],
+      "tags": [],
+      "name": "error"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A form can have its color inverted for contrast."
+      ],
+      "tags": [],
+      "name": "inverted"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Automatically show a loading indicator."
+      ],
+      "tags": [],
+      "name": "loading"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "The HTML form submit handler."
+      ],
+      "tags": [],
+      "name": "onSubmit"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A comment can contain a form to reply to a comment. This may have arbitrary content."
+      ],
+      "tags": [],
+      "name": "reply"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A form can vary in size."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Automatically show any success Message children."
+      ],
+      "tags": [],
+      "name": "success"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A form can prevent itself from stacking on mobile."
+      ],
+      "tags": [],
+      "name": "unstackable"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Automatically show any warning Message children."
+      ],
+      "tags": [],
+      "name": "warning"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Forms can automatically divide fields to be equal width."
+      ],
+      "tags": [],
+      "value": [
+        "equal"
+      ],
+      "name": "widths"
+    }
+  ],
+  "constructorName": "Form",
+  "type": "collection",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "FormButton",
+    "FormCheckbox",
+    "FormDropdown",
+    "FormField",
+    "FormGroup",
+    "FormInput",
+    "FormRadio",
+    "FormSelect",
+    "FormTextArea"
+  ],
+  "apiPath": "Form",
+  "componentClassName": "form",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Button"
+      },
+      {
+        "title": "see",
+        "description": "Checkbox"
+      },
+      {
+        "title": "see",
+        "description": "Dropdown"
+      },
+      {
+        "title": "see",
+        "description": "Input"
+      },
+      {
+        "title": "see",
+        "description": "Message"
+      },
+      {
+        "title": "see",
+        "description": "Radio"
+      },
+      {
+        "title": "see",
+        "description": "Select"
+      },
+      {
+        "title": "see",
+        "description": "Visibility"
+      }
+    ],
+    "description": [
+      "A Form displays a set of related user input fields in a structured way."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/collections/Form/Form.js",
+  "filename": "Form.js",
+  "filenameWithoutExt": "Form"
+}

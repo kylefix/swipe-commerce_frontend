@@ -1,0 +1,355 @@
+{
+  "displayName": "Menu",
+  "props": [
+    {
+      "type": "number|string",
+      "required": false,
+      "description": [
+        "Index of the currently active item."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "activeIndex"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A menu may be attached to other content segments."
+      ],
+      "tags": [],
+      "value": [
+        "top",
+        "bottom"
+      ],
+      "name": "attached"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A menu item or menu can have no borders."
+      ],
+      "tags": [],
+      "name": "borderless"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Additional colors can be specified."
+      ],
+      "tags": [],
+      "value": [
+        "red",
+        "orange",
+        "yellow",
+        "olive",
+        "green",
+        "teal",
+        "blue",
+        "violet",
+        "purple",
+        "pink",
+        "brown",
+        "grey",
+        "black"
+      ],
+      "name": "color"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A menu can take up only the space necessary to fit its content."
+      ],
+      "tags": [],
+      "name": "compact"
+    },
+    {
+      "type": "number|string",
+      "required": false,
+      "description": [
+        "Initial activeIndex value."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "defaultActiveIndex"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A menu can be fixed to a side of its context."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "right",
+        "bottom",
+        "top"
+      ],
+      "name": "fixed"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A menu can be floated."
+      ],
+      "tags": [],
+      "value": [
+        "right"
+      ],
+      "name": "floated"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A vertical menu may take the size of its container."
+      ],
+      "tags": [],
+      "name": "fluid"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A menu may have just icons (bool) or labeled icons."
+      ],
+      "tags": [],
+      "value": [
+        "labeled"
+      ],
+      "name": "icon"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A menu may have its colors inverted to show greater contrast."
+      ],
+      "tags": [],
+      "name": "inverted"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand array of props for Menu."
+      ],
+      "tags": [],
+      "name": "items"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "onClick handler for MenuItem. Mutually exclusive with children."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All item props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onItemClick"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A pagination menu is specially formatted to present links to pages of content."
+      ],
+      "tags": [],
+      "name": "pagination"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A menu can point to show its relationship to nearby content."
+      ],
+      "tags": [],
+      "name": "pointing"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A menu can adjust its appearance to de-emphasize its contents."
+      ],
+      "tags": [],
+      "name": "secondary"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A menu can vary in size."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "large",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A menu can stack at mobile resolutions."
+      ],
+      "tags": [],
+      "name": "stackable"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "A menu can be formatted to show tabs of information."
+      ],
+      "tags": [],
+      "value": [
+        "right"
+      ],
+      "name": "tabular"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A menu can be formatted for text content."
+      ],
+      "tags": [],
+      "name": "text"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A vertical menu displays elements vertically."
+      ],
+      "tags": [],
+      "name": "vertical"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A menu can have its items divided evenly."
+      ],
+      "tags": [],
+      "value": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen"
+      ],
+      "name": "widths"
+    }
+  ],
+  "constructorName": "Menu",
+  "type": "collection",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "MenuHeader",
+    "MenuItem",
+    "MenuMenu"
+  ],
+  "apiPath": "Menu",
+  "componentClassName": "menu",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Dropdown"
+      }
+    ],
+    "description": [
+      "A menu displays grouped navigation actions."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/collections/Menu/Menu.js",
+  "filename": "Menu.js",
+  "filenameWithoutExt": "Menu"
+}

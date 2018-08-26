@@ -1,0 +1,79 @@
+{
+  "displayName": "IconGroup",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "'i'",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Size of the icon group."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    }
+  ],
+  "constructorName": "IconGroup",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Icon",
+  "subcomponentName": "Group",
+  "subcomponents": null,
+  "apiPath": "Icon.Group",
+  "componentClassName": "icons",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "Several icons can be used together as a group."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/Icon/IconGroup.js",
+  "filename": "IconGroup.js",
+  "filenameWithoutExt": "IconGroup"
+}

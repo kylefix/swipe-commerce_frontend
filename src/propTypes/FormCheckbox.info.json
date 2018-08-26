@@ -1,0 +1,53 @@
+{
+  "displayName": "FormCheckbox",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "FormField",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A FormField control prop."
+      ],
+      "defaultValue": "Checkbox",
+      "tags": [],
+      "name": "control"
+    }
+  ],
+  "constructorName": "FormCheckbox",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Form",
+  "subcomponentName": "Checkbox",
+  "subcomponents": null,
+  "apiPath": "Form.Checkbox",
+  "componentClassName": "checkbox",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Checkbox"
+      },
+      {
+        "title": "see",
+        "description": "Form"
+      }
+    ],
+    "description": [
+      "Sugar for <Form.Field control={Checkbox} />."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Form/FormCheckbox.js",
+  "filename": "FormCheckbox.js",
+  "filenameWithoutExt": "FormCheckbox"
+}

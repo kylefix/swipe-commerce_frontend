@@ -1,0 +1,110 @@
+{
+  "displayName": "ItemContent",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ItemDescription component."
+      ],
+      "tags": [],
+      "name": "description"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ItemExtra component."
+      ],
+      "tags": [],
+      "name": "extra"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ItemHeader component."
+      ],
+      "tags": [],
+      "name": "header"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for ItemMeta component."
+      ],
+      "tags": [],
+      "name": "meta"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Content can specify its vertical alignment."
+      ],
+      "tags": [],
+      "value": [
+        "bottom",
+        "middle",
+        "top"
+      ],
+      "name": "verticalAlign"
+    }
+  ],
+  "constructorName": "ItemContent",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Item",
+  "subcomponentName": "Content",
+  "subcomponents": null,
+  "apiPath": "Item.Content",
+  "componentClassName": "content",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "An item can contain content."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Item/ItemContent.js",
+  "filename": "ItemContent.js",
+  "filenameWithoutExt": "ItemContent"
+}

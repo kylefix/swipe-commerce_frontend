@@ -1,0 +1,60 @@
+{
+  "displayName": "ItemDescription",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "ItemDescription",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Item",
+  "subcomponentName": "Description",
+  "subcomponents": null,
+  "apiPath": "Item.Description",
+  "componentClassName": "description",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "An item can contain a description with a single or multiple paragraphs."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Item/ItemDescription.js",
+  "filename": "ItemDescription.js",
+  "filenameWithoutExt": "ItemDescription"
+}

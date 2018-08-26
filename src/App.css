@@ -1,0 +1,70 @@
+.item a {
+  color: #666;
+}
+
+.item.active span {
+  color: #2185D0;
+}
+
+.react-grid-item.react-grid-placeholder {
+  background-color: green
+}
+
+/* HOME PAGE */
+
+.home-category-container {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.home-category--image__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.home-category-container:hover .home-category--image__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.toast-container {
+  background-color: #21BA45;
+}
+
+*, .ui.header {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ui.header {
+  color: #333;
+}
+
+.ui.button {
+  border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 2px 0px !important;
+}
+
+.ui.input input[placeholder="Search..."] {
+  border-radius: 10em;
+}
+
+#CssEditor > div.ace_scroller > div,
+#CssEditor > div.ace_scroller > div > div:nth-child(2) > div,
+#CssEditor > div.ace_scroller > div > div.ace_layer.ace_text-layer > div,
+#CssEditor > div.ace_scroller > div > div.ace_layer.ace_text-layer > div > span.ace_support.ace_type,
+#CssEditor > div.ace_scroller > div > div.ace_layer.ace_text-layer > div > span.ace_variable.ace_language,
+#CssEditor > div.ace_scroller > div > div.ace_layer.ace_text-layer > div > span.ace_error.ace_invalid,
+#CssEditor > div.ace_scroller > div > div.ace_layer.ace_text-layer > div > span.ace_constant.ace_numeric,
+#CssEditor > div.ace_scroller > div > div.ace_layer.ace_text-layer > div > span.ace_constant.ace_language {
+  font: 18px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace
+}

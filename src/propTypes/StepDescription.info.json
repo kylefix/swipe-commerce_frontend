@@ -1,0 +1,60 @@
+{
+  "displayName": "StepDescription",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "StepDescription",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Step",
+  "subcomponentName": "Description",
+  "subcomponents": null,
+  "apiPath": "Step.Description",
+  "componentClassName": "description",
+  "docblock": {
+    "tags": [],
+    "description": [
+      ""
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/Step/StepDescription.js",
+  "filename": "StepDescription.js",
+  "filenameWithoutExt": "StepDescription"
+}

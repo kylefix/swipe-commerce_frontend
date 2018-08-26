@@ -1,0 +1,53 @@
+{
+  "displayName": "FormInput",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "FormField",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A FormField control prop."
+      ],
+      "defaultValue": "Input",
+      "tags": [],
+      "name": "control"
+    }
+  ],
+  "constructorName": "FormInput",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Form",
+  "subcomponentName": "Input",
+  "subcomponents": null,
+  "apiPath": "Form.Input",
+  "componentClassName": "input",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Form"
+      },
+      {
+        "title": "see",
+        "description": "Input"
+      }
+    ],
+    "description": [
+      "Sugar for <Form.Field control={Input} />."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Form/FormInput.js",
+  "filename": "FormInput.js",
+  "filenameWithoutExt": "FormInput"
+}

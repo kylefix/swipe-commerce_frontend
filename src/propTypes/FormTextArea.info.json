@@ -1,0 +1,53 @@
+{
+  "displayName": "FormTextArea",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "FormField",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A FormField control prop."
+      ],
+      "defaultValue": "TextArea",
+      "tags": [],
+      "name": "control"
+    }
+  ],
+  "constructorName": "FormTextArea",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Form",
+  "subcomponentName": "TextArea",
+  "subcomponents": null,
+  "apiPath": "Form.TextArea",
+  "componentClassName": "textarea",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Form"
+      },
+      {
+        "title": "see",
+        "description": "TextArea"
+      }
+    ],
+    "description": [
+      "Sugar for <Form.Field control={TextArea} />."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Form/FormTextArea.js",
+  "filename": "FormTextArea.js",
+  "filenameWithoutExt": "FormTextArea"
+}

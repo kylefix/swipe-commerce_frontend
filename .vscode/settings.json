@@ -1,0 +1,10 @@
+{
+  "standard.options": {
+    "parser": "babel-eslint"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "eslint.autoFixOnSave": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "prettier.eslintIntegration": true
+}

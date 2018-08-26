@@ -1,0 +1,291 @@
+{
+  "displayName": "ButtonGroup",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "Groups can be attached to other content."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "name": "attached"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Groups can be less pronounced."
+      ],
+      "tags": [],
+      "name": "basic"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Array of shorthand Button values."
+      ],
+      "tags": [],
+      "name": "buttons"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Groups can have a shared color."
+      ],
+      "tags": [],
+      "value": [
+        "red",
+        "orange",
+        "yellow",
+        "olive",
+        "green",
+        "teal",
+        "blue",
+        "violet",
+        "purple",
+        "pink",
+        "brown",
+        "grey",
+        "black"
+      ],
+      "name": "color"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Groups can reduce their padding to fit into tighter spaces."
+      ],
+      "tags": [],
+      "name": "compact"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Groups can be aligned to the left or right of its container."
+      ],
+      "tags": [],
+      "value": [
+        "left",
+        "right"
+      ],
+      "name": "floated"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Groups can take the width of their container."
+      ],
+      "tags": [],
+      "name": "fluid"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Groups can be formatted as icons."
+      ],
+      "tags": [],
+      "name": "icon"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Groups can be formatted to appear on dark backgrounds."
+      ],
+      "tags": [],
+      "name": "inverted"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Groups can be formatted as labeled icon buttons."
+      ],
+      "tags": [],
+      "name": "labeled"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Groups can hint towards a negative consequence."
+      ],
+      "tags": [],
+      "name": "negative"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Groups can hint towards a positive consequence."
+      ],
+      "tags": [],
+      "name": "positive"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Groups can be formatted to show different levels of emphasis."
+      ],
+      "tags": [],
+      "name": "primary"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Groups can be formatted to show different levels of emphasis."
+      ],
+      "tags": [],
+      "name": "secondary"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Groups can have different sizes."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "medium",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Groups can be formatted to toggle on and off."
+      ],
+      "tags": [],
+      "name": "toggle"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Groups can be formatted to appear vertically."
+      ],
+      "tags": [],
+      "name": "vertical"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Groups can have their widths divided evenly."
+      ],
+      "tags": [],
+      "value": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen"
+      ],
+      "name": "widths"
+    }
+  ],
+  "constructorName": "ButtonGroup",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Button",
+  "subcomponentName": "Group",
+  "subcomponents": null,
+  "apiPath": "Button.Group",
+  "componentClassName": "buttons",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "Buttons can be grouped."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/Button/ButtonGroup.js",
+  "filename": "ButtonGroup.js",
+  "filenameWithoutExt": "ButtonGroup"
+}

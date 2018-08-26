@@ -1,0 +1,175 @@
+{
+  "displayName": "Step",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A step can be highlighted as active."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A step can show that a user has completed it."
+      ],
+      "tags": [],
+      "name": "completed"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for StepDescription."
+      ],
+      "tags": [],
+      "name": "description"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Show that the Loader is inactive."
+      ],
+      "tags": [],
+      "name": "disabled"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Render as an `a` tag instead of a `div` and adds the href attribute."
+      ],
+      "tags": [],
+      "name": "href"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for Icon."
+      ],
+      "tags": [],
+      "name": "icon"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A step can be link."
+      ],
+      "tags": [],
+      "name": "link"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called on click. When passed, the component will render as an `a`",
+        "tag by default instead of a `div`."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onClick"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A step can show a ordered sequence of steps. Passed from StepGroup."
+      ],
+      "tags": [],
+      "name": "ordered"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for StepTitle."
+      ],
+      "tags": [],
+      "name": "title"
+    }
+  ],
+  "constructorName": "Step",
+  "type": "element",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "StepContent",
+    "StepDescription",
+    "StepGroup",
+    "StepTitle"
+  ],
+  "apiPath": "Step",
+  "componentClassName": "step",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A step shows the completion status of an activity in a series of activities."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/elements/Step/Step.js",
+  "filename": "Step.js",
+  "filenameWithoutExt": "Step"
+}

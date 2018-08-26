@@ -1,0 +1,202 @@
+{
+  "displayName": "FormField",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "A form control component (i.e. Dropdown) or HTML tagName (i.e. 'input').",
+        "Extra FormField props are passed to the control component.",
+        "Mutually exclusive with children."
+      ],
+      "tags": [],
+      "name": "control"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Individual fields may be disabled."
+      ],
+      "tags": [],
+      "name": "disabled"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Individual fields may display an error state."
+      ],
+      "tags": [],
+      "name": "error"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A field can have its label next to instead of above it."
+      ],
+      "tags": [],
+      "name": "inline"
+    },
+    {
+      "type": "node|object",
+      "required": false,
+      "description": [
+        "Mutually exclusive with children."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "label"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A field can show that input is mandatory."
+      ],
+      "tags": [],
+      "name": "required"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Passed to the control component (i.e. <input type='password' />)"
+      ],
+      "tags": [],
+      "name": "type"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A field can specify its width in grid columns"
+      ],
+      "tags": [],
+      "value": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen"
+      ],
+      "name": "width"
+    }
+  ],
+  "constructorName": "FormField",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Form",
+  "subcomponentName": "Field",
+  "subcomponents": null,
+  "apiPath": "Form.Field",
+  "componentClassName": "field",
+  "docblock": {
+    "tags": [
+      {
+        "title": "see",
+        "description": "Form"
+      },
+      {
+        "title": "see",
+        "description": "Button"
+      },
+      {
+        "title": "see",
+        "description": "Checkbox"
+      },
+      {
+        "title": "see",
+        "description": "Dropdown"
+      },
+      {
+        "title": "see",
+        "description": "Input"
+      },
+      {
+        "title": "see",
+        "description": "Radio"
+      },
+      {
+        "title": "see",
+        "description": "Select"
+      },
+      {
+        "title": "see",
+        "description": "Visibility"
+      }
+    ],
+    "description": [
+      "A field is a form element containing a label and an input."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Form/FormField.js",
+  "filename": "FormField.js",
+  "filenameWithoutExt": "FormField"
+}

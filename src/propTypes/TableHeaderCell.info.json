@@ -1,0 +1,56 @@
+{
+  "displayName": "TableHeaderCell",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "'th'",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A header cell can be sorted in ascending or descending order."
+      ],
+      "tags": [],
+      "value": [
+        "ascending",
+        "descending"
+      ],
+      "name": "sorted"
+    }
+  ],
+  "constructorName": "TableHeaderCell",
+  "type": "collection",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Table",
+  "subcomponentName": "HeaderCell",
+  "subcomponents": null,
+  "apiPath": "Table.HeaderCell",
+  "componentClassName": "headercell",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A table can have a header cell."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/collections/Table/TableHeaderCell.js",
+  "filename": "TableHeaderCell.js",
+  "filenameWithoutExt": "TableHeaderCell"
+}

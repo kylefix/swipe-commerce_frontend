@@ -1,0 +1,123 @@
+{
+  "displayName": "SegmentGroup",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A segment may take up only as much space as is necessary."
+      ],
+      "tags": [],
+      "name": "compact"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Formats content to be aligned horizontally."
+      ],
+      "tags": [],
+      "name": "horizontal"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Formatted to look like a pile of pages."
+      ],
+      "tags": [],
+      "name": "piled"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A segment group may be formatted to raise above the page."
+      ],
+      "tags": [],
+      "name": "raised"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A segment group can have different sizes."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Formatted to show it contains multiple pages."
+      ],
+      "tags": [],
+      "name": "stacked"
+    }
+  ],
+  "constructorName": "SegmentGroup",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Segment",
+  "subcomponentName": "Group",
+  "subcomponents": null,
+  "apiPath": "Segment.Group",
+  "componentClassName": "segments",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A group of segments can be formatted to appear together."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/Segment/SegmentGroup.js",
+  "filename": "SegmentGroup.js",
+  "filenameWithoutExt": "SegmentGroup"
+}

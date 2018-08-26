@@ -1,0 +1,79 @@
+{
+  "displayName": "ImageGroup",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A group of images can be formatted to have the same size."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "medium",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    }
+  ],
+  "constructorName": "ImageGroup",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Image",
+  "subcomponentName": "Group",
+  "subcomponents": null,
+  "apiPath": "Image.Group",
+  "componentClassName": "images",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A group of images."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/Image/ImageGroup.js",
+  "filename": "ImageGroup.js",
+  "filenameWithoutExt": "ImageGroup"
+}

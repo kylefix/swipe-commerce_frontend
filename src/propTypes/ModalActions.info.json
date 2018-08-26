@@ -1,0 +1,97 @@
+{
+  "displayName": "ModalActions",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Array of shorthand buttons."
+      ],
+      "tags": [],
+      "name": "actions"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Action onClick handler when using shorthand `actions`."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props from the clicked action.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onActionClick"
+    }
+  ],
+  "constructorName": "ModalActions",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Modal",
+  "subcomponentName": "Actions",
+  "subcomponents": null,
+  "apiPath": "Modal.Actions",
+  "componentClassName": "actions",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A modal can contain a row of actions."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Modal/ModalActions.js",
+  "filename": "ModalActions.js",
+  "filenameWithoutExt": "ModalActions"
+}

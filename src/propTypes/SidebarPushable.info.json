@@ -1,0 +1,60 @@
+{
+  "displayName": "SidebarPushable",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    }
+  ],
+  "constructorName": "SidebarPushable",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Sidebar",
+  "subcomponentName": "Pushable",
+  "subcomponents": null,
+  "apiPath": "Sidebar.Pushable",
+  "componentClassName": "pushable",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A pushable sub-component for Sidebar."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Sidebar/SidebarPushable.js",
+  "filename": "SidebarPushable.js",
+  "filenameWithoutExt": "SidebarPushable"
+}

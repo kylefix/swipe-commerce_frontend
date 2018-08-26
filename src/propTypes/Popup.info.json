@@ -1,0 +1,309 @@
+{
+  "displayName": "Popup",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Display the popup without the pointing arrow."
+      ],
+      "tags": [],
+      "name": "basic"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Simple text content for the popover."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "object",
+      "required": false,
+      "description": [
+        "Existing element the pop-up should be bound to."
+      ],
+      "tags": [],
+      "name": "context"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A flowing Popup has no maximum width and continues to flow to fit its content."
+      ],
+      "tags": [],
+      "name": "flowing"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Header displayed above the content in bold."
+      ],
+      "tags": [],
+      "name": "header"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Hide the Popup when scrolling the window."
+      ],
+      "tags": [],
+      "name": "hideOnScroll"
+    },
+    {
+      "type": "number",
+      "required": false,
+      "description": [
+        "Horizontal offset in pixels to be applied to the Popup."
+      ],
+      "tags": [],
+      "name": "horizontalOffset"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Whether the popup should not close on hover."
+      ],
+      "tags": [],
+      "name": "hoverable"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Invert the colors of the Popup."
+      ],
+      "tags": [],
+      "name": "inverted"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Element to be rendered within the confines of the viewport whenever possible."
+      ],
+      "defaultValue": "true",
+      "tags": [],
+      "name": "keepInViewPort"
+    },
+    {
+      "type": "enum|arrayOf",
+      "required": false,
+      "description": [
+        "Events triggering the popup."
+      ],
+      "defaultValue": "'hover'",
+      "tags": [],
+      "value": [
+        "hover",
+        "click",
+        "focus"
+      ],
+      "name": "on"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called when a close event happens."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onClose"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called when the portal is mounted on the DOM."
+      ],
+      "tags": [],
+      "name": "onMount"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called when an open event happens."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onOpen"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called when the portal is unmounted from the DOM."
+      ],
+      "tags": [],
+      "name": "onUnmount"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Position for the popover."
+      ],
+      "defaultValue": "'top left'",
+      "tags": [],
+      "value": [
+        "top left",
+        "top right",
+        "bottom right",
+        "bottom left",
+        "right center",
+        "left center",
+        "top center",
+        "bottom center"
+      ],
+      "name": "position"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Popup size."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "large",
+        "huge"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "object",
+      "required": false,
+      "description": [
+        "Custom Popup style."
+      ],
+      "tags": [],
+      "name": "style"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Element to be rendered in-place where the popup is defined."
+      ],
+      "tags": [],
+      "name": "trigger"
+    },
+    {
+      "type": "number",
+      "required": false,
+      "description": [
+        "Vertical offset in pixels to be applied to the Popup."
+      ],
+      "tags": [],
+      "name": "verticalOffset"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "Popup width."
+      ],
+      "tags": [],
+      "value": [
+        "very"
+      ],
+      "name": "wide"
+    }
+  ],
+  "constructorName": "Popup",
+  "type": "module",
+  "isParent": true,
+  "isChild": false,
+  "parentDisplayName": null,
+  "subcomponentName": null,
+  "subcomponents": [
+    "PopupContent",
+    "PopupHeader"
+  ],
+  "apiPath": "Popup",
+  "componentClassName": "popup",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A Popup displays additional information on top of a page."
+    ]
+  },
+  "examplesExist": true,
+  "repoPath": "src/modules/Popup/Popup.js",
+  "filename": "Popup.js",
+  "filenameWithoutExt": "Popup"
+}

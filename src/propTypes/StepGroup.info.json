@@ -1,0 +1,162 @@
+{
+  "displayName": "StepGroup",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "bool|enum",
+      "required": false,
+      "description": [
+        "Steps can be attached to other elements."
+      ],
+      "tags": [],
+      "value": [
+        "top",
+        "bottom"
+      ],
+      "name": "attached"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A fluid step takes up the width of its container."
+      ],
+      "tags": [],
+      "name": "fluid"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand array of props for Step."
+      ],
+      "tags": [],
+      "name": "items"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A step can show a ordered sequence of steps."
+      ],
+      "tags": [],
+      "name": "ordered"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Steps can have different sizes."
+      ],
+      "tags": [],
+      "value": [
+        "mini",
+        "tiny",
+        "small",
+        "large",
+        "big",
+        "huge",
+        "massive"
+      ],
+      "name": "size"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "A step can stack vertically only on smaller screens."
+      ],
+      "tags": [],
+      "value": [
+        "tablet"
+      ],
+      "name": "stackable"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A step can prevent itself from stacking on mobile."
+      ],
+      "tags": [],
+      "name": "unstackable"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A step can be displayed stacked vertically."
+      ],
+      "tags": [],
+      "name": "vertical"
+    },
+    {
+      "type": "enum",
+      "required": false,
+      "description": [
+        "Steps can be divided evenly inside their parent."
+      ],
+      "tags": [],
+      "value": [
+        "..._.keys(numberMap)",
+        "..._.keys(numberMap).map(Number)",
+        "..._.values(numberMap)"
+      ],
+      "name": "widths"
+    }
+  ],
+  "constructorName": "StepGroup",
+  "type": "element",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Step",
+  "subcomponentName": "Group",
+  "subcomponents": null,
+  "apiPath": "Step.Group",
+  "componentClassName": "steps",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A set of steps."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/elements/Step/StepGroup.js",
+  "filename": "StepGroup.js",
+  "filenameWithoutExt": "StepGroup"
+}

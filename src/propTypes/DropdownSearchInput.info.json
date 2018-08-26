@@ -1,0 +1,91 @@
+{
+  "displayName": "DropdownSearchInput",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "An input can have the auto complete."
+      ],
+      "defaultValue": "'off'",
+      "tags": [],
+      "name": "autoComplete"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "A ref handler for input."
+      ],
+      "tags": [],
+      "name": "inputRef"
+    },
+    {
+      "type": "number|string",
+      "required": false,
+      "description": [
+        "An input can receive focus."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "tabIndex"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "The HTML input type."
+      ],
+      "defaultValue": "'text'",
+      "tags": [],
+      "name": "type"
+    },
+    {
+      "type": "number|string",
+      "required": false,
+      "description": [
+        "Stored value."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "value"
+    }
+  ],
+  "constructorName": "DropdownSearchInput",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Dropdown",
+  "subcomponentName": "SearchInput",
+  "subcomponents": null,
+  "apiPath": "Dropdown.SearchInput",
+  "componentClassName": "searchinput",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A search item sub-component for Dropdown component."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Dropdown/DropdownSearchInput.js",
+  "filename": "DropdownSearchInput.js",
+  "filenameWithoutExt": "DropdownSearchInput"
+}

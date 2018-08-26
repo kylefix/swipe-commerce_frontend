@@ -1,0 +1,80 @@
+{
+  "displayName": "TabPane",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A tab pane can be active."
+      ],
+      "defaultValue": "true",
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "defaultValue": "Segment",
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "A Tab.Pane can display a loading indicator."
+      ],
+      "tags": [],
+      "name": "loading"
+    }
+  ],
+  "constructorName": "TabPane",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Tab",
+  "subcomponentName": "Pane",
+  "subcomponents": null,
+  "apiPath": "Tab.Pane",
+  "componentClassName": "pane",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A tab pane holds the content of a tab."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Tab/TabPane.js",
+  "filename": "TabPane.js",
+  "filenameWithoutExt": "TabPane"
+}

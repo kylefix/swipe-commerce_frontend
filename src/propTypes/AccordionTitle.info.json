@@ -1,0 +1,107 @@
+{
+  "displayName": "AccordionTitle",
+  "props": [
+    {
+      "type": "bool",
+      "required": false,
+      "description": [
+        "Whether or not the title is in the open state."
+      ],
+      "tags": [],
+      "name": "active"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "string|number",
+      "required": false,
+      "description": [
+        "AccordionTitle index inside Accordion."
+      ],
+      "tags": [],
+      "value": [],
+      "name": "index"
+    },
+    {
+      "type": "func",
+      "required": false,
+      "description": [
+        "Called on click."
+      ],
+      "tags": [
+        {
+          "title": "param",
+          "description": "React's original SyntheticEvent.",
+          "type": {
+            "type": "NameExpression",
+            "name": "SyntheticEvent"
+          },
+          "name": "event"
+        },
+        {
+          "title": "param",
+          "description": "All props.",
+          "type": {
+            "type": "NameExpression",
+            "name": "object"
+          },
+          "name": "data"
+        }
+      ],
+      "name": "onClick"
+    }
+  ],
+  "constructorName": "AccordionTitle",
+  "type": "module",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Accordion",
+  "subcomponentName": "Title",
+  "subcomponents": null,
+  "apiPath": "Accordion.Title",
+  "componentClassName": "title",
+  "docblock": {
+    "tags": [],
+    "description": [
+      "A title sub-component for Accordion component."
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/modules/Accordion/AccordionTitle.js",
+  "filename": "AccordionTitle.js",
+  "filenameWithoutExt": "AccordionTitle"
+}

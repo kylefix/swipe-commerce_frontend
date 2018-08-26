@@ -1,0 +1,105 @@
+{
+  "displayName": "FeedContent",
+  "props": [
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An element type to render as (string or function)."
+      ],
+      "tags": [],
+      "name": "as"
+    },
+    {
+      "type": "node",
+      "required": false,
+      "description": [
+        "Primary content."
+      ],
+      "tags": [],
+      "name": "children"
+    },
+    {
+      "type": "string",
+      "required": false,
+      "description": [
+        "Additional classes."
+      ],
+      "tags": [],
+      "name": "className"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for primary content."
+      ],
+      "tags": [],
+      "name": "content"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "An event can contain a date."
+      ],
+      "tags": [],
+      "name": "date"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for FeedExtra with images."
+      ],
+      "tags": [],
+      "name": "extraImages"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for FeedExtra with text."
+      ],
+      "tags": [],
+      "name": "extraText"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for FeedMeta."
+      ],
+      "tags": [],
+      "name": "meta"
+    },
+    {
+      "type": "custom",
+      "required": false,
+      "description": [
+        "Shorthand for FeedSummary."
+      ],
+      "tags": [],
+      "name": "summary"
+    }
+  ],
+  "constructorName": "FeedContent",
+  "type": "view",
+  "isParent": false,
+  "isChild": true,
+  "parentDisplayName": "Feed",
+  "subcomponentName": "Content",
+  "subcomponents": null,
+  "apiPath": "Feed.Content",
+  "componentClassName": "content",
+  "docblock": {
+    "tags": [],
+    "description": [
+      ""
+    ]
+  },
+  "examplesExist": false,
+  "repoPath": "src/views/Feed/FeedContent.js",
+  "filename": "FeedContent.js",
+  "filenameWithoutExt": "FeedContent"
+}
