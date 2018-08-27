@@ -39,7 +39,7 @@ https://www.youtube.com/watch?v=GCGCCgYqMTE
 - Redux devtools for debuging
 - Used React propTypes for most components
 - Firebase image upload
-- Did not use create-react-app so learnt to create customized webpack.config.js, .eslintrc.json, .babelrc (with custom babel plugins) and .prettierc
+- Did not use create-react-app so learned to create customized webpack.config.js, .eslintrc.json, .babelrc (with custom babel plugins) and .prettierc
 - Google Oauth2 using JWT for authentication
 - Recharts for displaying the charts
 - React hot module replacement, for updating a page without having to refresh it
