@@ -44,11 +44,11 @@ https://www.youtube.com/watch?v=GCGCCgYqMTE
   - **Eslint**
   - **Babel** (with custom babel plugins)
   - **Prettier**
-- Google *Oauth2* using *JWT* for authentication
-- *Recharts* for displaying the charts
-- *React hot module replacement*, for updating a page without having to refresh it
-- *Redux-persist* for persisting state in local storage
-- *Redux-undo* for implementing the Admin Marketplace's undo/redo feature
-- *Semantic UI* for the component library/css framework
-- *Pdfmake* for creating PDF invoices
-- *Chai/Mocha* for testing the backend
+- Google **Oauth2** using **JWT** for authentication
+- **Recharts** for displaying the charts
+- **React hot module replacement**, for updating a page without having to refresh it
+- **Redux-persist** for persisting state in local storage
+- **Redux-undo** for implementing the Admin Marketplace's undo/redo feature
+- **Semantic UI** for the component library/css framework
+- **Pdfmake** for creating PDF invoices
+- **Chai/Mocha** for testing the backend
