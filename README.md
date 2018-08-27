@@ -32,23 +32,23 @@ https://www.youtube.com/watch?v=GCGCCgYqMTE
 - Can leave reviews
 
 ## Things I learned
-- Feathers as a backend framework
-- How to use more advanced MongoDB queries
-- Redux for state management
-- Redux thunk for async fetching
-- Redux devtools for debuging
-- Used React propTypes for most components
-- Firebase image upload
-- Did not use create-react-app so learned to create customized configurations for:
-  - Webpack
-  - Eslint
-  - Babel (with custom babel plugins)
-  - Prettier
-- Google Oauth2 using JWT for authentication
-- Recharts for displaying the charts
-- React hot module replacement, for updating a page without having to refresh it
-- Redux-Persist for persisting state in local storage
-- Redux-Undo for implementing the Admin Marketplace's undo/redo feature
-- Semantic UI for the component library/css framework
-- Pdfmake for creating PDF invoices
-- Chai/Mocha for testing the backend
+- *Feathers* as a backend framework
+- How to use more advanced **MongoDB** queries
+- **Redux** for state management
+- **Redux thunk** for async fetching
+- **Redux devtools** for debuging
+- Used **React propTypes** for most components
+- **Firebase** image upload
+- Did *not use create-react-app* so learned to create customized configurations for:
+  - **Webpack**
+  - **Eslint**
+  - **Babel** (with custom babel plugins)
+  - **Prettier**
+- Google *Oauth2* using *JWT* for authentication
+- *Recharts* for displaying the charts
+- *React hot module replacement*, for updating a page without having to refresh it
+- *Redux-persist* for persisting state in local storage
+- *Redux-undo* for implementing the Admin Marketplace's undo/redo feature
+- *Semantic UI* for the component library/css framework
+- *Pdfmake* for creating PDF invoices
+- *Chai/Mocha* for testing the backend
