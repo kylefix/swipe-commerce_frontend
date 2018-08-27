@@ -39,7 +39,11 @@ https://www.youtube.com/watch?v=GCGCCgYqMTE
 - Redux devtools for debuging
 - Used React propTypes for most components
 - Firebase image upload
-- Did not use create-react-app so learned to create customized webpack.config.js, .eslintrc.json, .babelrc (with custom babel plugins) and .prettierc
+- Did not use create-react-app so learned to create customized configurations for:
+  - Webpack
+  - Eslint
+  - Babel (with custom babel plugins)
+  - Prettier
 - Google Oauth2 using JWT for authentication
 - Recharts for displaying the charts
 - React hot module replacement, for updating a page without having to refresh it
@@ -48,6 +52,3 @@ https://www.youtube.com/watch?v=GCGCCgYqMTE
 - Semantic UI for the component library/css framework
 - Pdfmake for creating PDF invoices
 - Chai/Mocha for testing the backend
-
-
-
