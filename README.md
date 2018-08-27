@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=GCGCCgYqMTE
 - Can leave reviews
 
 ## Things I learned
-- *Feathers* as a backend framework
+- **Feathers** as a backend framework using **Express**
 - How to use more advanced **MongoDB** queries
 - **Redux** for state management
 - **Redux thunk** for async fetching
